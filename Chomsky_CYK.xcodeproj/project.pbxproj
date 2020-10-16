@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9A0FB31C2539EA1500BC9BA4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FB31B2539EA1500BC9BA4 /* main.swift */; };
+		9A0FB3282539EC4F00BC9BA4 /* TypeVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FB3272539EC4F00BC9BA4 /* TypeVariable.swift */; };
+		9A0FB32B2539EDB500BC9BA4 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FB32A2539EDB500BC9BA4 /* Rule.swift */; };
+		9A0FB32D2539EE3400BC9BA4 /* ContextFree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FB32C2539EE3400BC9BA4 /* ContextFree.swift */; };
+		9A0FB3302539F21500BC9BA4 /* Exemples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FB32F2539F21500BC9BA4 /* Exemples.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		9A0FB3182539EA1500BC9BA4 /* Chomsky_CYK */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Chomsky_CYK; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0FB31B2539EA1500BC9BA4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9A0FB3272539EC4F00BC9BA4 /* TypeVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeVariable.swift; sourceTree = "<group>"; };
+		9A0FB32A2539EDB500BC9BA4 /* Rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule.swift; sourceTree = "<group>"; };
+		9A0FB32C2539EE3400BC9BA4 /* ContextFree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextFree.swift; sourceTree = "<group>"; };
+		9A0FB32F2539F21500BC9BA4 /* Exemples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exemples.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,61 @@
 		9A0FB31A2539EA1500BC9BA4 /* Chomsky_CYK */ = {
 			isa = PBXGroup;
 			children = (
+				9A0FB3252539EC0F00BC9BA4 /* Utils */,
+				9A0FB3242539EC0A00BC9BA4 /* CYK */,
+				9A0FB3232539EBFD00BC9BA4 /* Chomsky */,
 				9A0FB31B2539EA1500BC9BA4 /* main.swift */,
 			);
 			path = Chomsky_CYK;
+			sourceTree = "<group>";
+		};
+		9A0FB3232539EBFD00BC9BA4 /* Chomsky */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chomsky;
+			sourceTree = "<group>";
+		};
+		9A0FB3242539EC0A00BC9BA4 /* CYK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CYK;
+			sourceTree = "<group>";
+		};
+		9A0FB3252539EC0F00BC9BA4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9A0FB32E2539F20800BC9BA4 /* Exemples */,
+				9A0FB3292539EDA600BC9BA4 /* Model */,
+				9A0FB3262539EC1A00BC9BA4 /* Enum */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9A0FB3262539EC1A00BC9BA4 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				9A0FB3272539EC4F00BC9BA4 /* TypeVariable.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		9A0FB3292539EDA600BC9BA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A0FB32A2539EDB500BC9BA4 /* Rule.swift */,
+				9A0FB32C2539EE3400BC9BA4 /* ContextFree.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A0FB32E2539F20800BC9BA4 /* Exemples */ = {
+			isa = PBXGroup;
+			children = (
+				9A0FB32F2539F21500BC9BA4 /* Exemples.swift */,
+			);
+			path = Exemples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +202,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A0FB32B2539EDB500BC9BA4 /* Rule.swift in Sources */,
 				9A0FB31C2539EA1500BC9BA4 /* main.swift in Sources */,
+				9A0FB3302539F21500BC9BA4 /* Exemples.swift in Sources */,
+				9A0FB3282539EC4F00BC9BA4 /* TypeVariable.swift in Sources */,
+				9A0FB32D2539EE3400BC9BA4 /* ContextFree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

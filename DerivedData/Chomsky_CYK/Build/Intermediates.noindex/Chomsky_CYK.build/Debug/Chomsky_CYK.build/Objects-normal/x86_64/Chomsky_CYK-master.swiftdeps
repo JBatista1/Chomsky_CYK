@@ -1,5 +1,9 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "3cc90cbaa724ee150125ff7825ae61e2"
-build_time: [1602859674, 408467000]
+build_time: [1602861763, 580397000]
 inputs:
-  "/Users/ItSelf/Documents/Estudos/Teoria da comutac\u0327a\u0303o/Chomsky_CYK/Chomsky_CYK/main.swift": [1602859669, 227355437]
+  "/Users/ItSelf/Documents/Estudos/Teoria da comutac\u0327a\u0303o/Chomsky_CYK/Chomsky_CYK/Utils/Model/Rule.swift": [1602861317, 722640957]
+  "/Users/ItSelf/Documents/Estudos/Teoria da comutac\u0327a\u0303o/Chomsky_CYK/Chomsky_CYK/main.swift": [1602861754, 872026036]
+  "/Users/ItSelf/Documents/Estudos/Teoria da comutac\u0327a\u0303o/Chomsky_CYK/Chomsky_CYK/Utils/Exemples/Exemples.swift": [1602861763, 493953629]
+  "/Users/ItSelf/Documents/Estudos/Teoria da comutac\u0327a\u0303o/Chomsky_CYK/Chomsky_CYK/Utils/Enum/TypeVariable.swift": [1602861317, 743282054]
+  "/Users/ItSelf/Documents/Estudos/Teoria da comutac\u0327a\u0303o/Chomsky_CYK/Chomsky_CYK/Utils/Model/ContextFree.swift": [1602861223, 699784030]
