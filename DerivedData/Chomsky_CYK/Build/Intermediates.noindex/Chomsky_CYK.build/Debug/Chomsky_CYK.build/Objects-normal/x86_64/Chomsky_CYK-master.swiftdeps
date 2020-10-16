@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "3cc90cbaa724ee150125ff7825ae61e2"
+build_time: [1602859674, 408467000]
+inputs:
+  "/Users/ItSelf/Documents/Estudos/Teoria da comutac\u0327a\u0303o/Chomsky_CYK/Chomsky_CYK/main.swift": [1602859669, 227355437]

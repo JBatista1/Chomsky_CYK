@@ -5,6 +5,75 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>1E0B7E0A-B405-4053-9D5E-5ABE1E1E9B20</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1E0B7E0A-B405-4053-9D5E-5ABE1E1E9B20.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Chomsky_CYK project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Chomsky_CYK</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Chomsky_CYK</string>
+			<key>timeStartedRecording</key>
+			<real>624552486.45847297</real>
+			<key>timeStoppedRecording</key>
+			<real>624552489.69205594</real>
+			<key>title</key>
+			<string>Build Chomsky_CYK</string>
+			<key>uniqueIdentifier</key>
+			<string>1E0B7E0A-B405-4053-9D5E-5ABE1E1E9B20</string>
+		</dict>
+		<key>6F26078D-60F2-4423-9AED-4DEAE98113C4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6F26078D-60F2-4423-9AED-4DEAE98113C4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Chomsky_CYK project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Chomsky_CYK</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Chomsky_CYK</string>
+			<key>timeStartedRecording</key>
+			<real>624552692.79375196</real>
+			<key>timeStoppedRecording</key>
+			<real>624552695.07561398</real>
+			<key>title</key>
+			<string>Build Chomsky_CYK</string>
+			<key>uniqueIdentifier</key>
+			<string>6F26078D-60F2-4423-9AED-4DEAE98113C4</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

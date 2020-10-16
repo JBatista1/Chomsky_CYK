@@ -5,6 +5,41 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>FDE1FD86-5823-4E6E-A1EE-D10AAC9777CD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FDE1FD86-5823-4E6E-A1EE-D10AAC9777CD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Chomsky_CYK project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Chomsky_CYK</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Chomsky_CYK</string>
+			<key>timeStartedRecording</key>
+			<real>624552489.71044803</real>
+			<key>timeStoppedRecording</key>
+			<real>624552503.69535506</real>
+			<key>title</key>
+			<string>Run Chomsky_CYK</string>
+			<key>uniqueIdentifier</key>
+			<string>FDE1FD86-5823-4E6E-A1EE-D10AAC9777CD</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
