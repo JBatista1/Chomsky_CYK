@@ -10,19 +10,19 @@ import Foundation
 
 class Exemples {
     static func getExempleOne() -> ContextFree {
-        let elementF = LanguageElements("F", .variable)
-        let elementO = LanguageElements("O", .variable)
-        let elementA = LanguageElements("A", .variable)
-        let elementN = LanguageElements("N", .variable)
-        let elementArrow = LanguageElements("->", .alphabet)
-        let elementIntersection = LanguageElements("/\\", .alphabet)
-        let elementUnion = LanguageElements("\\/", .alphabet)
-        let elementDenial = LanguageElements("!", .alphabet)
-        let elementOpenParentheses = LanguageElements("(", .alphabet)
-        let elementCloseParentheses = LanguageElements(")", .alphabet)
-        let elementp = LanguageElements("p", .alphabet)
-        let elementq = LanguageElements("q", .alphabet)
-        let elementr = LanguageElements("r", .alphabet)
+        let elementF = LanguageElements(name: "F", type: .variable)
+        let elementO = LanguageElements(name: "O", type: .variable)
+        let elementA = LanguageElements(name: "A", type: .variable)
+        let elementN = LanguageElements(name: "N", type: .variable)
+        let elementArrow = LanguageElements(name: "->", type: .alphabet)
+        let elementIntersection = LanguageElements(name: "/\\", type: .alphabet)
+        let elementUnion = LanguageElements(name: "\\/", type: .alphabet)
+        let elementDenial = LanguageElements(name: "!", type: .alphabet)
+        let elementOpenParentheses = LanguageElements(name: "(", type: .alphabet)
+        let elementCloseParentheses = LanguageElements(name: ")", type: .alphabet)
+        let elementp = LanguageElements(name: "p", type: .alphabet)
+        let elementq = LanguageElements(name: "q", type: .alphabet)
+        let elementr = LanguageElements(name: "r", type: .alphabet)
 
         let ruleOne = Rule(variable: elementF, rules: [[elementO, elementArrow, elementF], [elementO]])
         let ruleTwo = Rule(variable: elementO, rules: [[elementO, elementUnion, elementA], [elementA]])
@@ -35,6 +35,23 @@ class Exemples {
 
         let rules = [ruleOne, ruleTwo, ruleThree, ruleFour]
         let contextFree =  ContextFree(alphabet: ["->", "/\\", "\\/", "!", "(", ")", "p", "q", "r"], rules: rules)
+        return contextFree
+    }
+    static func getExempleTwo() -> ContextFree {
+        let elementS = LanguageElements(name: "S", type: .variable)
+        let elementA = LanguageElements(name: "A", type: .variable)
+        let elementB = LanguageElements(name: "B", type: .variable)
+        let elementC = LanguageElements(name: "C", type: .variable)
+        let elementa = LanguageElements(name: "a", type: .alphabet)
+        let elementb = LanguageElements(name: "b", type: .alphabet)
+        let elementab = LanguageElements(name: "ab", type: .alphabet)
+
+        let ruleOne = Rule(variable: elementS, rules: [[elementa], [elementA, elementB]])
+        let ruleTwo = Rule(variable: elementA, rules: [[elementb], [elementA, elementB]])
+        let ruleThree = Rule(variable: elementC, rules: [[elementab, elementA]])
+
+        let rules = [ruleOne, ruleTwo, ruleThree]
+        let contextFree =  ContextFree(alphabet: ["a", "b"], rules: rules)
         return contextFree
     }
 }

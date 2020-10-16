@@ -9,6 +9,6 @@
 import Foundation
 
 struct Rule {
-    let variable: LanguageElements
-    let rules: [[LanguageElements]]
+    var variable: LanguageElements
+    var rules: [[LanguageElements]]
 }

@@ -8,4 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+let exemple = Exemples.getExempleOne()
+//let exemple = Exemples.getExempleTwo()
+let chomsky = Chomsky(language: exemple)
+chomsky.generateChomskyFormatter()
+print("\(exemple.initialSymbol)")

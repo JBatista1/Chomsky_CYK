@@ -7,6 +7,7 @@ provides-member:
 - ["11Chomsky_CYK8ExemplesC", ""]
 provides-dynamic-lookup:
 - "getExempleOne"
+- "getExempleTwo"
 depends-top-level:
 - "ContextFree"
 - "Exemples"
@@ -17,15 +18,19 @@ depends-top-level:
 depends-member:
 - !private ["11Chomsky_CYK11ContextFreeC", "init"]
 - !private ["SQ", "alphabet"]
+- !private ["SQ", "init"]
 - !private ["SQ", "variable"]
 - ["11Chomsky_CYK8ExemplesC", "ContextFree"]
 - !private ["11Chomsky_CYK8ExemplesC", "LanguageElements"]
 - !private ["11Chomsky_CYK8ExemplesC", "Rule"]
 - ["11Chomsky_CYK8ExemplesC", "deinit"]
 - ["11Chomsky_CYK8ExemplesC", "getExempleOne"]
+- ["11Chomsky_CYK8ExemplesC", "getExempleTwo"]
 - ["11Chomsky_CYK8ExemplesC", "init"]
 - !private ["SH", "alphabet"]
+- !private ["SH", "init"]
 - !private ["SH", "variable"]
+- !private ["11Chomsky_CYK16LanguageElementsV", "init"]
 - !private ["11Chomsky_CYK4RuleV", "init"]
 - !private ["11Chomsky_CYK12TypeVariableO", "alphabet"]
 - !private ["11Chomsky_CYK12TypeVariableO", "variable"]
@@ -34,6 +39,7 @@ depends-nominal:
 - !private "SQ"
 - "11Chomsky_CYK8ExemplesC"
 - !private "SH"
+- !private "11Chomsky_CYK16LanguageElementsV"
 - !private "11Chomsky_CYK4RuleV"
 - !private "11Chomsky_CYK12TypeVariableO"
 depends-dynamic-lookup:
@@ -58,4 +64,4 @@ depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "4b27c2d07e7b59f8f8dfa4a51e69019f"
+interface-hash: "0d1ef231deec1b55a5a3d631bc3ba891"

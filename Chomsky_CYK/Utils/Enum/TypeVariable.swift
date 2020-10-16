@@ -8,8 +8,6 @@
 
 import Foundation
 
-typealias LanguageElements = (name: String, type: TypeVariable)
-
 enum TypeVariable {
     case alphabet
     case variable

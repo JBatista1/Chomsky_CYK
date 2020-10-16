@@ -7,21 +7,75 @@ provides-member:
 - ["11Chomsky_CYK11ContextFreeC", ""]
 provides-dynamic-lookup:
 - "alphabet"
+- "initialSymbol"
 - "rules"
 depends-top-level:
 - "AssignmentPrecedence"
 - "ContextFree"
+- "LanguageElements"
 - "Rule"
 - "String"
 depends-member:
+- !private ["Sa", "first"]
+- !private ["SK", "first"]
+- !private ["s7CVarArgP", "first"]
+- !private ["Sl", "first"]
+- ["11Chomsky_CYK11ContextFreeC", "LanguageElements"]
 - ["11Chomsky_CYK11ContextFreeC", "Rule"]
 - ["11Chomsky_CYK11ContextFreeC", "String"]
 - ["11Chomsky_CYK11ContextFreeC", "alphabet"]
 - ["11Chomsky_CYK11ContextFreeC", "deinit"]
 - ["11Chomsky_CYK11ContextFreeC", "init"]
+- ["11Chomsky_CYK11ContextFreeC", "initialSymbol"]
 - ["11Chomsky_CYK11ContextFreeC", "rules"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["Se", "first"]
+- !private ["SE", "first"]
+- !private ["SQ", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["SH", "first"]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["Sk", "first"]
+- !private ["Sm", "first"]
+- !private ["11Chomsky_CYK4RuleV", "variable"]
+- !private ["ST", "first"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
 depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
 - "11Chomsky_CYK11ContextFreeC"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "11Chomsky_CYK4RuleV"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
@@ -44,4 +98,4 @@ depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "0d53f607f1b7b724618845ae27bedd69"
+interface-hash: "6551f213095c997cc15a99c24a6a8ff7"
