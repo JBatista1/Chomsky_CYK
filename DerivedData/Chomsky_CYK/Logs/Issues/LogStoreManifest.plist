@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>4CB09E65-B07E-4547-B12C-C1C7A4A50957</key>
+		<key>CCDD063D-C8BC-4E77-855A-0684E00A1205</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
 			<key>fileName</key>
-			<string>4CB09E65-B07E-4547-B12C-C1C7A4A50957.xcactivitylog</string>
+			<string>CCDD063D-C8BC-4E77-855A-0684E00A1205.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>Chomsky_CYK-elkanyqyfgqfwvcijicvxquqesnb</string>
 			<key>timeStartedRecording</key>
-			<real>624588237.11521006</real>
+			<real>624640732.81727695</real>
 			<key>timeStoppedRecording</key>
-			<real>624588241.712901</real>
+			<real>624640736.21843004</real>
 			<key>title</key>
 			<string>Build target Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>4CB09E65-B07E-4547-B12C-C1C7A4A50957</string>
+			<string>CCDD063D-C8BC-4E77-855A-0684E00A1205</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

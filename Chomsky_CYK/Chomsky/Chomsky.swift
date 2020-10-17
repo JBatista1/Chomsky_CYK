@@ -15,6 +15,8 @@ protocol ChomskyProtocol: AnyObject {
 class Chomsky {
     let language: ContextFree
     let initialSymbol: LanguageElements
+    var valueNewElement = 0
+
     init(language: ContextFree) {
         self.language = language
         self.initialSymbol = language.initialSymbol
@@ -45,6 +47,71 @@ extension Chomsky: ChomskyProtocol {
 
 // MARK: - Utils functions remove Unit rule
 extension Chomsky {
+    func removeUniqueRules(InContextFree language: ContextFree) -> ContextFree {
+
+        return language
+    }
+
+    func localizeUniqueRules(InContextFree language: ContextFree) -> (rule: LanguageElements, element: LanguageElements) {
+        return (language.initialSymbol, language.initialSymbol)
+    }
+
+    func changeRules(rule: LanguageElements, element: LanguageElements, inContextFree language: ContextFree) -> ContextFree {
+        return language
+    }
+
+    func removeEqualRules(InRule rule: Rule, element: LanguageElements) -> Rule {
+        return rule
+    }
+}
+
+// MARK: - Utils function max size 2
+extension Chomsky {
+    //1 tem que ter um for até acabar as variaveis unicas
+    func maxRulesTwo(InContextFree language: ContextFree) -> ContextFree {
+        return language
+    }
+    //2 diz qual a regra te mais de 2 elementos
+    func detectSizeMoreTwo(InContextFree language: ContextFree) -> Rule {
+        return language.rules.first!
+    }
+
+    //3  Removo e adiciono elemento na regra
+    func update(fromRule rule: Rule) -> Rule {
+        return language.rules.first!
+    }
+    // 4 Cria nova regra com os elementos que foram removidos
+    func createNewRule(withElements elements: [LanguageElements]) -> Rule {
+        let rule = Rule(variable: createVariableName(), rules: [elements])
+        return rule
+    }
+
+    //5 Cria variavel
+    func createVariableName() -> LanguageElements {
+        let value = LanguageElements(name: "u\(valueNewElement)", type: .variable)
+        valueNewElement += 1
+        return value
+    }
+    // 6 Verificar se ele se chama e remover a propria instancia
+    func removeSelf(inRule rule: Rule) -> Rule {
+        let selfRule = rule.variable
+        return rule
+    }
+}
+// MARK: - Utils function tranforms aV1 in viv2
+extension Chomsky {
+    //1
+    func transformeInV1V2(InContextFree language: ContextFree) -> ContextFree {
+        return language
+    }
+    //2 diz qual a regra te um elemento do formato letraVariavel
+    func detectFormat(InContextFree language: ContextFree) -> Rule {
+        return language.rules.first!
+    }
+    //3 troca a variavel por um constante e cria uma regra nova
+    func updateRule(rule: Rule) -> Rule {
+        return rule
+    }
 
 }
 // MARK: - Utils function Update Initial Rule
@@ -74,6 +141,7 @@ extension Chomsky {
 }
 // MARK: - Utils function Eliminet epsilon
 extension Chomsky {
+    
     func removeEpsilon(inContextFree language: ContextFree) -> ContextFree {
         var contextFree = language
         var detect = detectEpsilon(inContextFree: contextFree)
