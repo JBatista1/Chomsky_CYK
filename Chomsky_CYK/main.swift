@@ -8,8 +8,11 @@
 
 import Foundation
 
-let exemple = Exemples.getExempleOne()
+//let exemple = Exemples.getExempleOne()
 //let exemple = Exemples.getExempleTwo()
+//let exemple = Exemples.getExempleThree()
+//let exemple = Exemples.getExempleFour()
+let exemple = Exemples.getExempleFive()
 let chomsky = Chomsky(language: exemple)
 chomsky.generateChomskyFormatter()
 print("\(exemple.initialSymbol)")

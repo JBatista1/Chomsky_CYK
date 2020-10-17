@@ -6,42 +6,106 @@ provides-nominal:
 provides-member:
 - ["11Chomsky_CYK8ExemplesC", ""]
 provides-dynamic-lookup:
+- "getExempleFive"
+- "getExempleFour"
 - "getExempleOne"
+- "getExempleThree"
 - "getExempleTwo"
 depends-top-level:
 - "ContextFree"
 - "Exemples"
 - !private "LanguageElements"
 - !private "Rule"
+- !private "String"
 - !private "StringLiteralType"
 - !private "UnicodeScalarType"
 depends-member:
+- !private ["SK", "epsilon"]
+- !private ["s7CVarArgP", "epsilon"]
+- !private ["Sl", "epsilon"]
+- !private ["SL", "epsilon"]
 - !private ["11Chomsky_CYK11ContextFreeC", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "epsilon"]
+- !private ["s17CustomReflectableP", "epsilon"]
+- !private ["s23CustomStringConvertibleP", "epsilon"]
+- !private ["Se", "epsilon"]
+- !private ["SE", "epsilon"]
 - !private ["SQ", "alphabet"]
+- !private ["SQ", "epsilon"]
 - !private ["SQ", "init"]
 - !private ["SQ", "variable"]
 - ["11Chomsky_CYK8ExemplesC", "ContextFree"]
 - !private ["11Chomsky_CYK8ExemplesC", "LanguageElements"]
 - !private ["11Chomsky_CYK8ExemplesC", "Rule"]
+- !private ["11Chomsky_CYK8ExemplesC", "String"]
 - ["11Chomsky_CYK8ExemplesC", "deinit"]
+- ["11Chomsky_CYK8ExemplesC", "getExempleFive"]
+- ["11Chomsky_CYK8ExemplesC", "getExempleFour"]
 - ["11Chomsky_CYK8ExemplesC", "getExempleOne"]
+- ["11Chomsky_CYK8ExemplesC", "getExempleThree"]
 - ["11Chomsky_CYK8ExemplesC", "getExempleTwo"]
 - ["11Chomsky_CYK8ExemplesC", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "epsilon"]
+- !private ["s32ExpressibleByStringInterpolationP", "epsilon"]
+- !private ["s26ExpressibleByStringLiteralP", "epsilon"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "epsilon"]
 - !private ["SH", "alphabet"]
+- !private ["SH", "epsilon"]
 - !private ["SH", "init"]
 - !private ["SH", "variable"]
 - !private ["11Chomsky_CYK16LanguageElementsV", "init"]
+- !private ["s25LosslessStringConvertibleP", "epsilon"]
+- !private ["s10MirrorPathP", "epsilon"]
+- !private ["Sm", "epsilon"]
 - !private ["11Chomsky_CYK4RuleV", "init"]
+- !private ["ST", "epsilon"]
+- !private ["SS", "epsilon"]
+- !private ["Sy", "epsilon"]
+- !private ["s16TextOutputStreamP", "epsilon"]
+- !private ["s20TextOutputStreamableP", "epsilon"]
 - !private ["11Chomsky_CYK12TypeVariableO", "alphabet"]
 - !private ["11Chomsky_CYK12TypeVariableO", "variable"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "epsilon"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "epsilon"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "epsilon"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "epsilon"]
+- !private ["s19_HasContiguousBytesP", "epsilon"]
+- !private ["s21_ObjectiveCBridgeableP", "epsilon"]
 depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
 - !private "11Chomsky_CYK11ContextFreeC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
 - !private "SQ"
 - "11Chomsky_CYK8ExemplesC"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "SH"
 - !private "11Chomsky_CYK16LanguageElementsV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "Sm"
 - !private "11Chomsky_CYK4RuleV"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - !private "11Chomsky_CYK12TypeVariableO"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
@@ -64,4 +128,4 @@ depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "0d1ef231deec1b55a5a3d631bc3ba891"
+interface-hash: "e8f57556a7e737ed28224f773aa0a5e7"

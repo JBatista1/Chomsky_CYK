@@ -8,6 +8,15 @@ provides-nominal:
 provides-member:
 - ["11Chomsky_CYK0A8ProtocolP", ""]
 - ["11Chomsky_CYK0A0C", ""]
+- ["11Chomsky_CYK0A0C", "verifyInitialVariable"]
+- ["11Chomsky_CYK0A0C", "removeEpsilon"]
+- ["11Chomsky_CYK0A0C", "detectEpsilon"]
+- ["11Chomsky_CYK0A0C", "updateRules"]
+- ["11Chomsky_CYK0A0C", "remove"]
+- ["11Chomsky_CYK0A0C", "removeAndAddEpsilom"]
+- ["11Chomsky_CYK0A0C", "removeEpsilonStates"]
+- ["11Chomsky_CYK0A0C", "newsElements"]
+- ["11Chomsky_CYK0A0C", "number"]
 - ["11Chomsky_CYK0A0C", "verifyExistElement"]
 - ["11Chomsky_CYK0A0C", "verifyExistElement"]
 - ["11Chomsky_CYK0A0C", "removeElementsNotValid"]
@@ -16,20 +25,32 @@ provides-member:
 - ["11Chomsky_CYK0A0C", "getNextVariable"]
 - ["11Chomsky_CYK0A0C", "removeVoidElement"]
 provides-dynamic-lookup:
+- "detectEpsilon"
 - "generateChomskyFormatter"
 - "getInitialVariables"
 - "getNextVariable"
 - "initialSymbol"
 - "language"
+- "newsElements"
+- "number"
+- "remove"
+- "removeAndAddEpsilom"
 - "removeElementsNotValid"
+- "removeEpsilon"
+- "removeEpsilonStates"
 - "removeUnreachableElements"
 - "removeVoidElement"
+- "updateRules"
 - "uselessSymbolsRemover"
 - "verifyExistElement"
+- "verifyInitialVariable"
 depends-top-level:
 - !private "!"
 - !private "!="
+- !private "&&"
 - !private "+="
+- !private "-"
+- !private "..<"
 - !private "=="
 - !private ">"
 - "AnyObject"
@@ -39,73 +60,108 @@ depends-top-level:
 - "ChomskyProtocol"
 - "ContextFree"
 - !private "FloatLiteralType"
+- "Int"
 - !private "IntegerLiteralType"
 - "LanguageElements"
 - "Rule"
 - "String"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Sa", "append"]
 - !private ["Sa", "contains"]
 - !private ["Sa", "count"]
 - !private ["Sa", "filter"]
 - !private ["Sa", "first"]
+- !private ["Sa", "remove"]
 - !private ["Sa", "removeAll"]
 - !private ["Sa", "subscript"]
 - !private ["Sa", "uniques"]
+- !private ["s10ArraySliceV", "append"]
 - !private ["s10ArraySliceV", "rules"]
+- !private ["s10ArraySliceV", "variable"]
 - !private ["SK", "append"]
 - !private ["SK", "contains"]
 - !private ["SK", "count"]
+- !private ["SK", "epsilon"]
 - !private ["SK", "filter"]
 - !private ["SK", "first"]
+- !private ["SK", "remove"]
 - !private ["SK", "removeAll"]
 - !private ["SK", "rules"]
 - !private ["SK", "subscript"]
 - !private ["SK", "uniques"]
+- !private ["SK", "variable"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "contains"]
 - !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "epsilon"]
 - !private ["s7CVarArgP", "filter"]
 - !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "remove"]
 - !private ["s7CVarArgP", "removeAll"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "uniques"]
 - ["11Chomsky_CYK0A0C", "ContextFree"]
+- ["11Chomsky_CYK0A0C", "Int"]
 - ["11Chomsky_CYK0A0C", "LanguageElements"]
 - ["11Chomsky_CYK0A0C", "Rule"]
 - ["11Chomsky_CYK0A0C", "String"]
 - ["11Chomsky_CYK0A0C", "deinit"]
+- ["11Chomsky_CYK0A0C", "detectEpsilon"]
 - ["11Chomsky_CYK0A0C", "generateChomskyFormatter"]
 - ["11Chomsky_CYK0A0C", "getInitialVariables"]
 - ["11Chomsky_CYK0A0C", "getNextVariable"]
 - ["11Chomsky_CYK0A0C", "init"]
 - ["11Chomsky_CYK0A0C", "initialSymbol"]
 - ["11Chomsky_CYK0A0C", "language"]
+- ["11Chomsky_CYK0A0C", "newsElements"]
+- ["11Chomsky_CYK0A0C", "number"]
+- ["11Chomsky_CYK0A0C", "remove"]
+- ["11Chomsky_CYK0A0C", "removeAndAddEpsilom"]
 - ["11Chomsky_CYK0A0C", "removeElementsNotValid"]
+- ["11Chomsky_CYK0A0C", "removeEpsilon"]
+- ["11Chomsky_CYK0A0C", "removeEpsilonStates"]
 - ["11Chomsky_CYK0A0C", "removeUnreachableElements"]
 - ["11Chomsky_CYK0A0C", "removeVoidElement"]
+- ["11Chomsky_CYK0A0C", "updateRules"]
 - ["11Chomsky_CYK0A0C", "uselessSymbolsRemover"]
 - ["11Chomsky_CYK0A0C", "verifyExistElement"]
+- ["11Chomsky_CYK0A0C", "verifyInitialVariable"]
 - ["11Chomsky_CYK0A8ProtocolP", "ContextFree"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "LanguageElements"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "Rule"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "String"]
 - ["11Chomsky_CYK0A8ProtocolP", ""]
+- !private ["11Chomsky_CYK0A8ProtocolP", "detectEpsilon"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "getInitialVariables"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "getNextVariable"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "initialSymbol"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "language"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "newsElements"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "number"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "remove"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "removeElementsNotValid"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "removeEpsilon"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "removeEpsilonStates"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "removeUnreachableElements"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "removeVoidElement"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "updateRules"]
 - ["11Chomsky_CYK0A8ProtocolP", "uselessSymbolsRemover"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "verifyExistElement"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "verifyInitialVariable"]
 - !private ["Sl", "append"]
 - !private ["Sl", "contains"]
 - !private ["Sl", "count"]
+- !private ["Sl", "epsilon"]
 - !private ["Sl", "filter"]
 - !private ["Sl", "first"]
+- !private ["Sl", "remove"]
 - !private ["Sl", "removeAll"]
 - !private ["Sl", "rules"]
 - !private ["Sl", "subscript"]
 - !private ["Sl", "uniques"]
+- !private ["Sl", "variable"]
+- !private ["SL", "epsilon"]
 - !private ["11Chomsky_CYK11ContextFreeC", "alphabet"]
 - !private ["11Chomsky_CYK11ContextFreeC", "initialSymbol"]
 - !private ["11Chomsky_CYK11ContextFreeC", "rules"]
@@ -114,59 +170,76 @@ depends-member:
 - !private ["10Foundation15ContiguousBytesP", "count"]
 - !private ["10Foundation15ContiguousBytesP", "filter"]
 - !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "remove"]
 - !private ["10Foundation15ContiguousBytesP", "removeAll"]
 - !private ["10Foundation15ContiguousBytesP", "rules"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
 - !private ["10Foundation15ContiguousBytesP", "uniques"]
+- !private ["10Foundation15ContiguousBytesP", "variable"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
 - !private ["s28CustomDebugStringConvertibleP", "contains"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "epsilon"]
 - !private ["s28CustomDebugStringConvertibleP", "filter"]
 - !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
 - !private ["s28CustomDebugStringConvertibleP", "removeAll"]
 - !private ["s28CustomDebugStringConvertibleP", "rules"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "uniques"]
+- !private ["s28CustomDebugStringConvertibleP", "variable"]
 - !private ["s17CustomReflectableP", "append"]
 - !private ["s17CustomReflectableP", "contains"]
 - !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "epsilon"]
 - !private ["s17CustomReflectableP", "filter"]
 - !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "remove"]
 - !private ["s17CustomReflectableP", "removeAll"]
 - !private ["s17CustomReflectableP", "rules"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "uniques"]
+- !private ["s17CustomReflectableP", "variable"]
 - !private ["s23CustomStringConvertibleP", "append"]
 - !private ["s23CustomStringConvertibleP", "contains"]
 - !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "epsilon"]
 - !private ["s23CustomStringConvertibleP", "filter"]
 - !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "remove"]
 - !private ["s23CustomStringConvertibleP", "removeAll"]
 - !private ["s23CustomStringConvertibleP", "rules"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "uniques"]
+- !private ["s23CustomStringConvertibleP", "variable"]
 - !private ["10Foundation12DataProtocolP", "append"]
 - !private ["10Foundation12DataProtocolP", "contains"]
 - !private ["10Foundation12DataProtocolP", "count"]
 - !private ["10Foundation12DataProtocolP", "filter"]
 - !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "remove"]
 - !private ["10Foundation12DataProtocolP", "removeAll"]
 - !private ["10Foundation12DataProtocolP", "rules"]
 - !private ["10Foundation12DataProtocolP", "subscript"]
 - !private ["10Foundation12DataProtocolP", "uniques"]
+- !private ["10Foundation12DataProtocolP", "variable"]
 - !private ["Se", "append"]
 - !private ["Se", "contains"]
 - !private ["Se", "count"]
+- !private ["Se", "epsilon"]
 - !private ["Se", "filter"]
 - !private ["Se", "first"]
+- !private ["Se", "remove"]
 - !private ["Se", "removeAll"]
 - !private ["Se", "subscript"]
 - !private ["Se", "uniques"]
 - !private ["SE", "append"]
 - !private ["SE", "contains"]
 - !private ["SE", "count"]
+- !private ["SE", "epsilon"]
 - !private ["SE", "filter"]
 - !private ["SE", "first"]
+- !private ["SE", "remove"]
 - !private ["SE", "removeAll"]
 - !private ["SE", "subscript"]
 - !private ["SE", "uniques"]
@@ -174,8 +247,12 @@ depends-member:
 - !private ["SQ", "append"]
 - !private ["SQ", "contains"]
 - !private ["SQ", "count"]
+- !private ["SQ", "epsilon"]
 - !private ["SQ", "filter"]
 - !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- !private ["SQ", "name"]
+- !private ["SQ", "remove"]
 - !private ["SQ", "removeAll"]
 - !private ["SQ", "rules"]
 - !private ["SQ", "subscript"]
@@ -187,16 +264,26 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "filter"]
 - !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
 - !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
 - !private ["s25ExpressibleByArrayLiteralP", "rules"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s25ExpressibleByArrayLiteralP", "uniques"]
+- !private ["s25ExpressibleByArrayLiteralP", "variable"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "epsilon"]
+- !private ["s32ExpressibleByStringInterpolationP", "epsilon"]
+- !private ["s26ExpressibleByStringLiteralP", "epsilon"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "epsilon"]
 - !private ["SH", "alphabet"]
 - !private ["SH", "append"]
 - !private ["SH", "contains"]
 - !private ["SH", "count"]
+- !private ["SH", "epsilon"]
 - !private ["SH", "filter"]
 - !private ["SH", "first"]
+- !private ["SH", "init"]
+- !private ["SH", "name"]
+- !private ["SH", "remove"]
 - !private ["SH", "removeAll"]
 - !private ["SH", "rules"]
 - !private ["SH", "subscript"]
@@ -204,21 +291,28 @@ depends-member:
 - !private ["SH", "uniques"]
 - !private ["SH", "variable"]
 - !private ["11Chomsky_CYK16LanguageElementsV", "deinit"]
+- !private ["11Chomsky_CYK16LanguageElementsV", "init"]
+- !private ["11Chomsky_CYK16LanguageElementsV", "name"]
 - !private ["11Chomsky_CYK16LanguageElementsV", "type"]
+- !private ["s25LosslessStringConvertibleP", "epsilon"]
+- !private ["s10MirrorPathP", "epsilon"]
 - !private ["SM", "append"]
 - !private ["SM", "contains"]
 - !private ["SM", "count"]
 - !private ["SM", "filter"]
 - !private ["SM", "first"]
+- !private ["SM", "remove"]
 - !private ["SM", "removeAll"]
 - !private ["SM", "rules"]
 - !private ["SM", "subscript"]
 - !private ["SM", "uniques"]
+- !private ["SM", "variable"]
 - !private ["10Foundation19MutableDataProtocolP", "append"]
 - !private ["10Foundation19MutableDataProtocolP", "contains"]
 - !private ["10Foundation19MutableDataProtocolP", "count"]
 - !private ["10Foundation19MutableDataProtocolP", "filter"]
 - !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "remove"]
 - !private ["10Foundation19MutableDataProtocolP", "removeAll"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
 - !private ["10Foundation19MutableDataProtocolP", "uniques"]
@@ -227,30 +321,43 @@ depends-member:
 - !private ["Sk", "count"]
 - !private ["Sk", "filter"]
 - !private ["Sk", "first"]
+- !private ["Sk", "remove"]
 - !private ["Sk", "removeAll"]
 - !private ["Sk", "rules"]
 - !private ["Sk", "subscript"]
 - !private ["Sk", "uniques"]
+- !private ["Sk", "variable"]
 - !private ["Sm", "append"]
 - !private ["Sm", "contains"]
 - !private ["Sm", "count"]
+- !private ["Sm", "epsilon"]
 - !private ["Sm", "filter"]
 - !private ["Sm", "first"]
+- !private ["Sm", "remove"]
 - !private ["Sm", "removeAll"]
 - !private ["Sm", "rules"]
 - !private ["Sm", "subscript"]
 - !private ["Sm", "uniques"]
+- !private ["Sm", "variable"]
+- !private ["11Chomsky_CYK4RuleV", "init"]
 - !private ["11Chomsky_CYK4RuleV", "rules"]
 - !private ["11Chomsky_CYK4RuleV", "variable"]
 - !private ["ST", "append"]
 - !private ["ST", "contains"]
 - !private ["ST", "count"]
+- !private ["ST", "epsilon"]
 - !private ["ST", "filter"]
 - !private ["ST", "first"]
+- !private ["ST", "remove"]
 - !private ["ST", "removeAll"]
 - !private ["ST", "rules"]
 - !private ["ST", "subscript"]
 - !private ["ST", "uniques"]
+- !private ["ST", "variable"]
+- !private ["SS", "epsilon"]
+- !private ["Sy", "epsilon"]
+- !private ["s16TextOutputStreamP", "epsilon"]
+- !private ["s20TextOutputStreamableP", "epsilon"]
 - !private ["11Chomsky_CYK12TypeVariableO", "alphabet"]
 - !private ["11Chomsky_CYK12TypeVariableO", "deinit"]
 - !private ["11Chomsky_CYK12TypeVariableO", "variable"]
@@ -259,24 +366,34 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "count"]
 - !private ["s14_ArrayProtocolP", "filter"]
 - !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "remove"]
 - !private ["s14_ArrayProtocolP", "removeAll"]
 - !private ["s14_ArrayProtocolP", "rules"]
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s14_ArrayProtocolP", "uniques"]
+- !private ["s14_ArrayProtocolP", "variable"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "epsilon"]
 - !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s24_DestructorSafeContainerP", "contains"]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "filter"]
 - !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
 - !private ["s24_DestructorSafeContainerP", "removeAll"]
 - !private ["s24_DestructorSafeContainerP", "rules"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s24_DestructorSafeContainerP", "uniques"]
+- !private ["s24_DestructorSafeContainerP", "variable"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "epsilon"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "epsilon"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "epsilon"]
 - !private ["s19_HasContiguousBytesP", "append"]
 - !private ["s19_HasContiguousBytesP", "contains"]
 - !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "epsilon"]
 - !private ["s19_HasContiguousBytesP", "filter"]
 - !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "remove"]
 - !private ["s19_HasContiguousBytesP", "removeAll"]
 - !private ["s19_HasContiguousBytesP", "subscript"]
 - !private ["s19_HasContiguousBytesP", "uniques"]
@@ -285,14 +402,17 @@ depends-member:
 - !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "uniques"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "contains"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "epsilon"]
 - !private ["s21_ObjectiveCBridgeableP", "filter"]
 - !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
 - !private ["s21_ObjectiveCBridgeableP", "removeAll"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "uniques"]
@@ -304,6 +424,7 @@ depends-nominal:
 - "11Chomsky_CYK0A0C"
 - "11Chomsky_CYK0A8ProtocolP"
 - !private "Sl"
+- !private "SL"
 - !private "11Chomsky_CYK11ContextFreeC"
 - !private "10Foundation15ContiguousBytesP"
 - !private "s28CustomDebugStringConvertibleP"
@@ -314,17 +435,31 @@ depends-nominal:
 - !private "SE"
 - !private "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "SH"
 - !private "11Chomsky_CYK16LanguageElementsV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
 - !private "Sk"
 - !private "Sm"
 - !private "11Chomsky_CYK4RuleV"
 - !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - !private "11Chomsky_CYK12TypeVariableO"
 - !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - !private "s21_ObjectiveCBridgeableP"
@@ -350,4 +485,4 @@ depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "13a9579b9e3a332c1e8bba88aae290f0"
+interface-hash: "34dabb4ef0fa49c5056a0861d0cd1884"

@@ -15,6 +15,7 @@
 		9A0FB332253A02DC00BC9BA4 /* Chomsky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FB331253A02DC00BC9BA4 /* Chomsky.swift */; };
 		9A0FB335253A069600BC9BA4 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FB334253A069600BC9BA4 /* ArrayExtension.swift */; };
 		9A0FB337253A0B1600BC9BA4 /* LanguageElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FB336253A0B1600BC9BA4 /* LanguageElements.swift */; };
+		9A0FB339253A3D8500BC9BA4 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FB338253A3D8500BC9BA4 /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		9A0FB331253A02DC00BC9BA4 /* Chomsky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chomsky.swift; sourceTree = "<group>"; };
 		9A0FB334253A069600BC9BA4 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 		9A0FB336253A0B1600BC9BA4 /* LanguageElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageElements.swift; sourceTree = "<group>"; };
+		9A0FB338253A3D8500BC9BA4 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				9A0FB334253A069600BC9BA4 /* ArrayExtension.swift */,
+				9A0FB338253A3D8500BC9BA4 /* StringExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				9A0FB337253A0B1600BC9BA4 /* LanguageElements.swift in Sources */,
 				9A0FB3302539F21500BC9BA4 /* Exemples.swift in Sources */,
 				9A0FB3282539EC4F00BC9BA4 /* TypeVariable.swift in Sources */,
+				9A0FB339253A3D8500BC9BA4 /* StringExtension.swift in Sources */,
 				9A0FB335253A069600BC9BA4 /* ArrayExtension.swift in Sources */,
 				9A0FB332253A02DC00BC9BA4 /* Chomsky.swift in Sources */,
 				9A0FB32D2539EE3400BC9BA4 /* ContextFree.swift in Sources */,
