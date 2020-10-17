@@ -11,6 +11,7 @@ provides-member:
 - ["11Chomsky_CYK0A0C", "removeUniqueRules"]
 - ["11Chomsky_CYK0A0C", "localizeUniqueRules"]
 - ["11Chomsky_CYK0A0C", "changeRules"]
+- ["11Chomsky_CYK0A0C", "getRules"]
 - ["11Chomsky_CYK0A0C", "removeEqualRules"]
 - ["11Chomsky_CYK0A0C", "maxRulesTwo"]
 - ["11Chomsky_CYK0A0C", "detectSizeMoreTwo"]
@@ -47,10 +48,12 @@ provides-dynamic-lookup:
 - "generateChomskyFormatter"
 - "getInitialVariables"
 - "getNextVariable"
+- "getRules"
 - "initialSymbol"
 - "language"
 - "localizeUniqueRules"
 - "maxRulesTwo"
+- "newInitRule"
 - "newsElements"
 - "number"
 - "remove"
@@ -82,7 +85,7 @@ depends-top-level:
 - !private ">"
 - "AnyObject"
 - "AssignmentPrecedence"
-- !private "BooleanLiteralType"
+- "BooleanLiteralType"
 - "Chomsky"
 - "ChomskyProtocol"
 - "ContextFree"
@@ -144,11 +147,13 @@ depends-member:
 - ["11Chomsky_CYK0A0C", "generateChomskyFormatter"]
 - ["11Chomsky_CYK0A0C", "getInitialVariables"]
 - ["11Chomsky_CYK0A0C", "getNextVariable"]
+- ["11Chomsky_CYK0A0C", "getRules"]
 - ["11Chomsky_CYK0A0C", "init"]
 - ["11Chomsky_CYK0A0C", "initialSymbol"]
 - ["11Chomsky_CYK0A0C", "language"]
 - ["11Chomsky_CYK0A0C", "localizeUniqueRules"]
 - ["11Chomsky_CYK0A0C", "maxRulesTwo"]
+- !private ["11Chomsky_CYK0A0C", "newInitRule"]
 - ["11Chomsky_CYK0A0C", "newsElements"]
 - ["11Chomsky_CYK0A0C", "number"]
 - ["11Chomsky_CYK0A0C", "remove"]
@@ -174,18 +179,24 @@ depends-member:
 - !private ["11Chomsky_CYK0A8ProtocolP", "Rule"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "String"]
 - ["11Chomsky_CYK0A8ProtocolP", ""]
+- !private ["11Chomsky_CYK0A8ProtocolP", "changeRules"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "createVariableName"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "detectEpsilon"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "getInitialVariables"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "getNextVariable"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "getRules"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "initialSymbol"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "language"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "localizeUniqueRules"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "newInitRule"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "newsElements"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "number"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "remove"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "removeElementsNotValid"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "removeEpsilon"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "removeEpsilonStates"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "removeEqualRules"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "removeUniqueRules"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "removeUnreachableElements"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "removeVoidElement"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "updateRules"]
@@ -539,4 +550,4 @@ depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "e29706b586ed6907aef65539bf3758c8"
+interface-hash: "4bca9163e293d76f34c93e58adca3e3d"

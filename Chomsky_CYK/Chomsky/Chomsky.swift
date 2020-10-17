@@ -16,6 +16,7 @@ class Chomsky {
     let language: ContextFree
     let initialSymbol: LanguageElements
     var valueNewElement = 0
+    private var newInitRule = false
 
     init(language: ContextFree) {
         self.language = language
@@ -26,6 +27,7 @@ class Chomsky {
         var context = uselessSymbolsRemover(inContexFree: language)
         context = verifyInitialVariable(inContextFree: context)
         context = removeEpsilon(inContextFree: context)
+        context = removeUniqueRules(InContextFree: context)
         return context
     }
 
@@ -48,20 +50,80 @@ extension Chomsky: ChomskyProtocol {
 // MARK: - Utils functions remove Unit rule
 extension Chomsky {
     func removeUniqueRules(InContextFree language: ContextFree) -> ContextFree {
+        var context = language
+        var stopWhile = false
 
-        return language
+        while !stopWhile {
+            if let rules = localizeUniqueRules(InContextFree: context) {
+                context = changeRules(rule: rules.rule, element: rules.element, inContextFree: context)
+            } else {
+                stopWhile = true
+            }
+
+        }
+        if newInitRule {
+            // Update S0 com S, já que são iguais
+            language.rules[0].rules = language.rules[1].rules
+        }
+        return context
     }
 
-    func localizeUniqueRules(InContextFree language: ContextFree) -> (rule: LanguageElements, element: LanguageElements) {
-        return (language.initialSymbol, language.initialSymbol)
+    func localizeUniqueRules(InContextFree language: ContextFree) -> (rule: LanguageElements, element: LanguageElements)? {
+        var jumpRule = 0
+        for rules in language.rules {
+            if newInitRule {
+                jumpRule += 1
+            }
+            if jumpRule != 1 {
+                for rule in rules.rules {
+                    if rule.count == 1 && rule[0].type == .variable {
+                        return(rule: rules.variable, element: rule.first!)
+                    }
+                }
+            }
+        }
+        return nil
     }
 
     func changeRules(rule: LanguageElements, element: LanguageElements, inContextFree language: ContextFree) -> ContextFree {
-        return language
-    }
+        let contextFree = language
+        var index = 0
+        for rules in language.rules {
+            if rules.variable == rule {
+                var indexJ = 0
+                for myRule in rules.rules {
+                    if myRule.count == 1 && myRule.first == element {
+                        contextFree.rules[index].rules.remove(at: indexJ)
+                        if let elements = getRules(withElement: element, inContexFree: contextFree) {
+                            contextFree.rules[index].rules.append(contentsOf: elements)
+                            contextFree.rules[index] = removeEqualRules(InRule: contextFree.rules[index])
+                        }
 
-    func removeEqualRules(InRule rule: Rule, element: LanguageElements) -> Rule {
-        return rule
+                    }
+                    indexJ += 1
+                }
+            }
+            index += 1
+        }
+        return contextFree
+    }
+    func getRules(withElement element: LanguageElements, inContexFree language: ContextFree) -> [[LanguageElements]]? {
+        for rules in language.rules  where rules.variable == element {
+            return rules.rules
+        }
+        return nil
+    }
+    func removeEqualRules(InRule rule: Rule) -> Rule {
+        var newRule = rule
+        var index = 0
+        for insideRule in rule.rules {
+            if insideRule.count == 1 && insideRule.first! == rule.variable {
+                newRule.rules.remove(at: index)
+            }
+            index += 1
+        }
+        newRule.rules = newRule.rules.uniques
+        return newRule
     }
 }
 
@@ -134,6 +196,7 @@ extension Chomsky {
             var rules = [rule]
             rules.append(contentsOf: contextFree.rules)
             contextFree.rules = rules
+            newInitRule = true
         }
         return contextFree
     }
