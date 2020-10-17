@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+extension String {
+    static var epsilon: String = "ε"
+}

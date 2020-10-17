@@ -37,6 +37,7 @@ class Exemples {
         let contextFree =  ContextFree(alphabet: ["->", "/\\", "\\/", "!", "(", ")", "p", "q", "r"], rules: rules)
         return contextFree
     }
+    // Teste com variaveis dupla a, b como letrar entre variaveis
     static func getExempleTwo() -> ContextFree {
         let elementS = LanguageElements(name: "S", type: .variable)
         let elementA = LanguageElements(name: "A", type: .variable)
@@ -48,10 +49,61 @@ class Exemples {
 
         let ruleOne = Rule(variable: elementS, rules: [[elementa], [elementA, elementB]])
         let ruleTwo = Rule(variable: elementA, rules: [[elementb], [elementA, elementB]])
-        let ruleThree = Rule(variable: elementC, rules: [[elementab, elementA]])
+        let ruleThree = Rule(variable: elementC, rules: [[elementab, elementa, elementA]])
 
         let rules = [ruleOne, ruleTwo, ruleThree]
         let contextFree =  ContextFree(alphabet: ["a", "b"], rules: rules)
+        return contextFree
+    }
+    // Exemplo com Epsilon Transition
+    static func getExempleThree() -> ContextFree {
+        let elementS = LanguageElements(name: "S", type: .variable)
+        let elementA = LanguageElements(name: "A", type: .variable)
+        let elementB = LanguageElements(name: "B", type: .variable)
+        let elementa = LanguageElements(name: "a", type: .alphabet)
+        let elementb = LanguageElements(name: "b", type: .alphabet)
+        let elementEpsilon = LanguageElements(name: String.epsilon, type: .alphabet)
+
+        let ruleOne = Rule(variable: elementS, rules: [[elementA, elementS, elementA], [elementa, elementB]])
+        let ruleTwo = Rule(variable: elementA, rules: [[elementB], [elementS]])
+        let ruleThree = Rule(variable: elementB, rules: [[elementb], [elementEpsilon]])
+
+        let rules = [ruleOne, ruleTwo, ruleThree]
+        let contextFree =  ContextFree(alphabet: ["a", "b"], rules: rules)
+        return contextFree
+    }
+    static func getExempleFour() -> ContextFree {
+        let elementS = LanguageElements(name: "S", type: .variable)
+        let elementA = LanguageElements(name: "A", type: .variable)
+        let elementB = LanguageElements(name: "B", type: .variable)
+        let elementC = LanguageElements(name: "C", type: .variable)
+        let element0 = LanguageElements(name: "0", type: .alphabet)
+        let element1 = LanguageElements(name: "1", type: .alphabet)
+        let elementEpsilon = LanguageElements(name: String.epsilon, type: .alphabet)
+
+        let ruleOne = Rule(variable: elementS, rules: [[element0, elementA, element0], [element1, elementB, element1], [elementB, elementB]])
+        let ruleTwo = Rule(variable: elementA, rules: [[elementC]])
+        let ruleThree = Rule(variable: elementB, rules: [[elementS], [elementA]])
+        let ruleFour = Rule(variable: elementC, rules: [[elementS], [elementEpsilon]])
+
+        let rules = [ruleOne, ruleTwo, ruleThree, ruleFour]
+        let contextFree =  ContextFree(alphabet: ["1", "0", String.epsilon], rules: rules)
+        return contextFree
+    }
+    static func getExempleFive() -> ContextFree {
+        let elementS = LanguageElements(name: "S", type: .variable)
+        let elementA = LanguageElements(name: "A", type: .variable)
+        let elementB = LanguageElements(name: "B", type: .variable)
+        let elementa = LanguageElements(name: "a", type: .alphabet)
+        let elementb = LanguageElements(name: "b", type: .alphabet)
+        let elementEpsilon = LanguageElements(name: String.epsilon, type: .alphabet)
+
+        let ruleOne = Rule(variable: elementS, rules: [[elementA, elementB]])
+        let ruleTwo = Rule(variable: elementA, rules: [[elementa, elementA, elementA], [elementEpsilon]])
+        let ruleThree = Rule(variable: elementB, rules: [[elementb, elementB, elementB], [elementEpsilon]])
+
+        let rules = [ruleOne, ruleTwo, ruleThree]
+        let contextFree = ContextFree(alphabet: ["a", "b"], rules: rules)
         return contextFree
     }
 }
