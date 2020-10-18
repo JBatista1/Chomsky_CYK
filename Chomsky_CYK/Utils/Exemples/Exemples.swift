@@ -52,7 +52,7 @@ class Exemples {
         let elementHtmlClose = LanguageElements(name: "</html>", type: .alphabet)
         let elementHeadOpen = LanguageElements(name: "<head>", type: .alphabet)
         let elementHeadClose = LanguageElements(name: "</head>", type: .alphabet)
-        let elementTitleOpen = LanguageElements(name: "<titlel>", type: .alphabet)
+        let elementTitleOpen = LanguageElements(name: "<title>", type: .alphabet)
         let elementTitleClose = LanguageElements(name: "</title>", type: .alphabet)
         let elementBodyOpen = LanguageElements(name: "<body>", type: .alphabet)
         let elementBodyClose = LanguageElements(name: "</body>", type: .alphabet)
@@ -76,12 +76,12 @@ class Exemples {
         let ruleFour = Rule(variable: elementL, rules: [[elementULOpen, elementM, elementULClose], [elementOLOpen, elementM, elementOLClose]])
         let ruleFive = Rule(variable: elementM, rules: [[elementM, elementO], [elementO]])
         let ruleSix = Rule(variable: elementO, rules: [[elementLIOpen, elementH, elementLIClose]])
-        let ruleSeven = Rule(variable: elementT, rules: [[elementTheory, elementSpace, elementAutomata, elementGrammars]])
+        let ruleSeven = Rule(variable: elementT, rules: [[elementTheory], [elementSpace], [elementAutomata], [elementGrammars]])
 
         let rules: [Rule] = [ruleOne, ruleTwo, ruleThree, ruleFour, ruleFive, ruleSix, ruleSeven]
         let contextFree =  ContextFree(alphabet: ["<html>", "</html>", "<head>", "</head>", "<title>", "</title>", "<body>", "</body>",
                                                   "<b>", "</b>", "<ul>", "</ul>", "<ol>", "</ol>", "<li>", "</li>",
-                                                  "theory of computation, automata", "grammars", " "], rules: rules)
+                                                  "theory of computation", "automata", "grammars", " "], rules: rules)
         return contextFree
     }
     // Teste com variaveis dupla a, b como letrar entre variaveis

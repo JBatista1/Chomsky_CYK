@@ -75,11 +75,13 @@ extension Chomsky: ChomskyProtocol {
                 for elementRule in rule.rules {
                     var allElement = true
                     for element in elementRule {
-                        allElement = elementsValid.contains(element)
+                        if elementsValid.contains(element) {
+                            elementsValid.append(rule.variable)
+                        }
                     }
-                    if allElement == true {
-                        elementsValid.append(rule.variable)
-                    }
+//                    if allElement == true {
+//
+//                    }
                 }
             }
             elementsValid = elementsValid.uniques
@@ -172,7 +174,7 @@ extension Chomsky {
         var constainsInitial = false
         for rules in language.rules {
             for rule in rules.rules {
-                if rule.count == 1 && rule.contains(initialSymbol) {
+                if rule.contains(initialSymbol) {
                     constainsInitial = true
                 }
             }
@@ -349,7 +351,7 @@ extension Chomsky {
         var index = 0
         for elements in interRule.rules {
             if elements.count > 2 {
-                let newElementeRule = createNewRule(withElements: [elements[elements.count - 1], elements[elements.count - 2]])
+                let newElementeRule = createNewRule(withElements: [elements[elements.count - 2], elements[elements.count - 1]])
                 newsRules.append(newElementeRule.rule)
                 interRule.rules[index].removeLast()
                 interRule.rules[index].removeLast()
@@ -516,18 +518,15 @@ extension Chomsky {
                 if elements[0].type == .alphabet && elements[1].type == .variable {
                     let newElementeRule = createNewRuleAlphabet(withElements: elements[0])
                     newsRules.append(newElementeRule.rule)
-                    interRule.rules[index].removeFirst()
-                    interRule.rules[index].append(newElementeRule.newVariable)
+                    interRule.rules[index][0] = newElementeRule.newVariable
                 } else if elements[0].type == .variable && elements[1].type == .alphabet {
                     let newElementeRule = createNewRuleAlphabet(withElements: elements[1])
                     newsRules.append(newElementeRule.rule)
-                    interRule.rules[index].removeLast()
-                    interRule.rules[index].append(newElementeRule.newVariable)
+                    interRule.rules[index][1] = newElementeRule.newVariable
                 } else if elements[0].type == .alphabet && elements[1].type == .alphabet {
                     let newElementeRule = createNewRuleAlphabet(withElements: elements[1])
                     newsRules.append(newElementeRule.rule)
-                    interRule.rules[index].removeLast()
-                    interRule.rules[index].append(newElementeRule.newVariable)
+                    interRule.rules[index][1] = newElementeRule.newVariable
                 }
             }
             index += 1

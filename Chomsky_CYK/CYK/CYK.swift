@@ -14,11 +14,12 @@ class CYK {
     var matrix: [[CellMatriz]] = []
     var numberLines: Int = 0
     var belongs = false
+    
     init(languageContext: ContextFree) {
         language = languageContext
     }
 
-    func verify(theString textCYK: FormatTextCYK) -> Bool {
+    func verify(theString textCYK: FormatTextCYK) {
         numberLines = textCYK.string.count
         //Create first Line
 
@@ -42,19 +43,27 @@ class CYK {
             }
             
         }
-        return belongs
-    }
+        if belongs{
+            print("A String é aceita")
+        } else {
+            print("A String não é aceita")
+        }
+
+
+}
 
     func createCombination(textCYK: FormatTextCYK) -> [FormatTextCYK] {
         var format: [FormatTextCYK] = []
         format.append(textCYK)
 
         var indexK = 0
+        var last = 1
         while format.count <= textCYK.string.count {
             var strings: [String] = []
             for index in 0..<format[indexK].string.count where index + 1 < format[indexK].string.count {
-                strings.append("\(format[indexK].string[index])\(textCYK.string[index + format[indexK].string[index].count])")
+                strings.append("\(format[indexK].string[index])\(textCYK.string[index + last])")
             }
+            last += 1
             format.append(FormatTextCYK(string: strings))
             indexK += 1
         }
@@ -66,7 +75,9 @@ class CYK {
     func createArrayCombinationsPosibles(withString string: String) -> [FormatTextCYK] {
         var format: [FormatTextCYK] = []
         for index in 0..<string.count - 1 {
-            format.append(FormatTextCYK(string: [string.substring(with: 0..<index+1), string.substring(with: index + 1..<string.count)]))
+            if (dataSetAlphabet[string.substring(with: 0..<index+1)] != nil) && (dataSetAlphabet[string.substring(with: index + 1..<string.count)] != nil) {
+                  format.append(FormatTextCYK(string: [string.substring(with: 0..<index+1), string.substring(with: index + 1..<string.count)]))
+            }
         }
         return format
     }
@@ -123,7 +134,7 @@ class CYK {
 
     func valideVariable() -> Bool {
         guard let elementsFinals = matrix.last?.first else {return false}
-        if elementsFinals.value.contains(language.initialSymbol){
+        if elementsFinals.value.contains(language.initialSymbol) {
             return true
         }
         return false
