@@ -16,6 +16,9 @@ class Chomsky {
     let language: ContextFree
     let initialSymbol: LanguageElements
     var valueNewElement = 0
+    var dataElements: [Rule] = []
+    var dataAlphabet: [String: Rule] = [:]
+
     private var newInitRule = false
 
     init(language: ContextFree) {
@@ -28,6 +31,8 @@ class Chomsky {
         context = verifyInitialVariable(inContextFree: context)
         context = removeEpsilon(inContextFree: context)
         context = removeUniqueRules(InContextFree: context)
+        context = maxRulesTwo(InContextFree: context)
+        context = transformeInV1V2(InContextFree: context)
         return context
     }
 
@@ -43,6 +48,86 @@ extension Chomsky: ChomskyProtocol {
         contextfree = removeUnreachableElements(inContextFree: contextfree)
         contextfree.rules = removeVoidElement(inRules: contextfree.rules)
         return contextfree
+    }
+
+}
+// MARK: - Utils function tranforms aV1 in viv2
+extension Chomsky {
+    //1
+    func transformeInV1V2(InContextFree language: ContextFree) -> ContextFree {
+        let contextFree = language
+        var stopWhile = false
+
+        while !stopWhile {
+            var elements = 0
+            for index in 0 ..< contextFree.rules.count {
+                if detectFormat(inRule: contextFree.rules[index]) {
+                    let updateRules = updateAlphabet(InRule: contextFree.rules[index])
+                    contextFree.rules[index] = updateRules.lastRule
+                    contextFree.rules.append(contentsOf: updateRules.newRules)
+                    contextFree.rules = contextFree.rules.uniques
+                    elements += 1
+                }
+            }
+
+            if elements == 0 {
+                stopWhile.toggle()
+            }
+        }
+        return contextFree
+    }
+    //2 diz qual a regra te um elemento do formato letraVariavel
+    func detectFormat(inRule rule: Rule) -> Bool {
+        var exist = false
+        for rules in rule.rules where rules.count == 2 {
+            let formaA = (rules[0].type == .alphabet && rules[1].type == .variable)
+            let formAa = (rules[0].type == .variable && rules[1].type == .alphabet)
+            if formAa || formaA {
+                exist = true
+            }
+        }
+        return exist
+    }
+    //3 troca a variavel por um constante e cria uma regra nova
+    func updateAlphabet(InRule rule: Rule) -> (lastRule: Rule, newRules: [Rule] ) {
+        var interRule = rule
+        var newsRules: [Rule] = []
+        var index = 0
+        for elements in interRule.rules {
+            if elements.count == 2 {
+                if elements[0].type == .alphabet && elements[1].type == .variable {
+                    let newElementeRule = createNewRuleAlphabet(withElements: elements[0])
+                    newsRules.append(newElementeRule.rule)
+                    interRule.rules[index].removeFirst()
+                    interRule.rules[index].append(newElementeRule.newVariable)
+                } else if elements[0].type == .variable && elements[1].type == .alphabet {
+                    let newElementeRule = createNewRuleAlphabet(withElements: elements[1])
+                    newsRules.append(newElementeRule.rule)
+                    interRule.rules[index].removeLast()
+                    interRule.rules[index].append(newElementeRule.newVariable)
+                }
+            }
+            index += 1
+        }
+        return (lastRule: interRule, newRules: newsRules)
+    }
+
+    func createNewRuleAlphabet(withElements element: LanguageElements) -> (rule: Rule, newVariable: LanguageElements) {
+        let elementData = verifyExistInDictionatyElement(elements: element)
+        if elementData.exist {
+            return (elementData.rule!, elementData.rule!.variable)
+        } else {
+            let newElement = createVariableName()
+            let rule = Rule(variable: newElement, rules: [[element]])
+            dataAlphabet[element.name] = rule
+            return (rule, newElement)
+        }
+    }
+    func verifyExistInDictionatyElement(elements: LanguageElements) -> (exist: Bool, rule: Rule?) {
+        if dataAlphabet[elements.name] != nil {
+            return (true, dataAlphabet[elements.name])
+        }
+        return (false, nil)
     }
 
 }
@@ -129,23 +214,67 @@ extension Chomsky {
 
 // MARK: - Utils function max size 2
 extension Chomsky {
-    //1 tem que ter um for até acabar as variaveis unicas
+    //1 tem que ter um while até acabar as variaveis unicas
     func maxRulesTwo(InContextFree language: ContextFree) -> ContextFree {
-        return language
+        let contextFree = language
+        var stopWhile = false
+        while !stopWhile {
+            var elements = 0
+            for index in 0 ..< contextFree.rules.count {
+                if detectSizeMoreTwo(InRule: contextFree.rules[index]) {
+                    let updateRules = update(fromRule: contextFree.rules[index])
+                    contextFree.rules[index] = updateRules.lastRule
+                    contextFree.rules.append(contentsOf: updateRules.newRules)
+                    contextFree.rules =  contextFree.rules.uniques
+                    elements += 1
+                }
+            }
+
+            if elements == 0 {
+                stopWhile.toggle()
+            }
+        }
+
+        return contextFree
     }
+
     //2 diz qual a regra te mais de 2 elementos
-    func detectSizeMoreTwo(InContextFree language: ContextFree) -> Rule {
-        return language.rules.first!
+    func detectSizeMoreTwo(InRule rule: Rule) -> Bool {
+        for rules in rule.rules where rules.count > 2 {
+            return true
+        }
+        return false
     }
 
     //3  Removo e adiciono elemento na regra
-    func update(fromRule rule: Rule) -> Rule {
-        return language.rules.first!
+    func update(fromRule rule: Rule) -> (lastRule: Rule, newRules: [Rule] ) {
+        var interRule = rule
+        var newsRules: [Rule] = []
+        var index = 0
+        for elements in interRule.rules {
+            if elements.count > 2 {
+                let newElementeRule = createNewRule(withElements: [elements[elements.count - 1], elements[elements.count - 2]])
+                newsRules.append(newElementeRule.rule)
+                interRule.rules[index].removeLast()
+                interRule.rules[index].removeLast()
+                interRule.rules[index].append(newElementeRule.newVariable)
+            }
+            index += 1
+        }
+        return (lastRule: interRule, newRules: newsRules)
     }
+
     // 4 Cria nova regra com os elementos que foram removidos
-    func createNewRule(withElements elements: [LanguageElements]) -> Rule {
-        let rule = Rule(variable: createVariableName(), rules: [elements])
-        return rule
+    func createNewRule(withElements elements: [LanguageElements]) -> (rule: Rule, newVariable: LanguageElements) {
+        let elementData = verifyExistElement(elements: elements)
+        if elementData.exist {
+            return (elementData.rule!, elementData.rule!.variable)
+        } else {
+            let newElement = createVariableName()
+            let rule = Rule(variable: newElement, rules: [elements])
+            dataElements.append(rule)
+            return (rule, newElement)
+        }
     }
 
     //5 Cria variavel
@@ -154,27 +283,15 @@ extension Chomsky {
         valueNewElement += 1
         return value
     }
-    // 6 Verificar se ele se chama e remover a propria instancia
-    func removeSelf(inRule rule: Rule) -> Rule {
-        let selfRule = rule.variable
-        return rule
-    }
-}
-// MARK: - Utils function tranforms aV1 in viv2
-extension Chomsky {
-    //1
-    func transformeInV1V2(InContextFree language: ContextFree) -> ContextFree {
-        return language
-    }
-    //2 diz qual a regra te um elemento do formato letraVariavel
-    func detectFormat(InContextFree language: ContextFree) -> Rule {
-        return language.rules.first!
-    }
-    //3 troca a variavel por um constante e cria uma regra nova
-    func updateRule(rule: Rule) -> Rule {
-        return rule
-    }
 
+    func verifyExistElement(elements: [LanguageElements]) -> (exist: Bool, rule: Rule?) {
+        for index in 0..<dataElements.count {
+            if dataElements[index].rules.contains(elements) {
+                return (true, dataElements[index])
+            }
+        }
+        return (false, nil)
+    }
 }
 // MARK: - Utils function Update Initial Rule
 extension Chomsky {
@@ -183,12 +300,12 @@ extension Chomsky {
         var constainsInitial = false
         for rules in language.rules {
             for rule in rules.rules {
-                if rule.contains(initialSymbol) {
+                if rule.count == 1 && rule.contains(initialSymbol) {
                     constainsInitial = true
                 }
             }
-
         }
+
         if constainsInitial {
             let initialS0 = LanguageElements(name: "S0", type: .variable)
             let rule = Rule(variable: initialS0, rules: [[language.initialSymbol]])
@@ -204,7 +321,6 @@ extension Chomsky {
 }
 // MARK: - Utils function Eliminet epsilon
 extension Chomsky {
-    
     func removeEpsilon(inContextFree language: ContextFree) -> ContextFree {
         var contextFree = language
         var detect = detectEpsilon(inContextFree: contextFree)

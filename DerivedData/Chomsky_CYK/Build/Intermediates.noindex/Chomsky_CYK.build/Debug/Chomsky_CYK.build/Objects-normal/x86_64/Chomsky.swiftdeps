@@ -8,6 +8,11 @@ provides-nominal:
 provides-member:
 - ["11Chomsky_CYK0A8ProtocolP", ""]
 - ["11Chomsky_CYK0A0C", ""]
+- ["11Chomsky_CYK0A0C", "transformeInV1V2"]
+- ["11Chomsky_CYK0A0C", "detectFormat"]
+- ["11Chomsky_CYK0A0C", "updateAlphabet"]
+- ["11Chomsky_CYK0A0C", "createNewRuleAlphabet"]
+- ["11Chomsky_CYK0A0C", "verifyExistInDictionatyElement"]
 - ["11Chomsky_CYK0A0C", "removeUniqueRules"]
 - ["11Chomsky_CYK0A0C", "localizeUniqueRules"]
 - ["11Chomsky_CYK0A0C", "changeRules"]
@@ -18,10 +23,7 @@ provides-member:
 - ["11Chomsky_CYK0A0C", "update"]
 - ["11Chomsky_CYK0A0C", "createNewRule"]
 - ["11Chomsky_CYK0A0C", "createVariableName"]
-- ["11Chomsky_CYK0A0C", "removeSelf"]
-- ["11Chomsky_CYK0A0C", "transformeInV1V2"]
-- ["11Chomsky_CYK0A0C", "detectFormat"]
-- ["11Chomsky_CYK0A0C", "updateRule"]
+- ["11Chomsky_CYK0A0C", "verifyExistElement"]
 - ["11Chomsky_CYK0A0C", "verifyInitialVariable"]
 - ["11Chomsky_CYK0A0C", "removeEpsilon"]
 - ["11Chomsky_CYK0A0C", "detectEpsilon"]
@@ -41,7 +43,10 @@ provides-member:
 provides-dynamic-lookup:
 - "changeRules"
 - "createNewRule"
+- "createNewRuleAlphabet"
 - "createVariableName"
+- "dataAlphabet"
+- "dataElements"
 - "detectEpsilon"
 - "detectFormat"
 - "detectSizeMoreTwo"
@@ -62,17 +67,17 @@ provides-dynamic-lookup:
 - "removeEpsilon"
 - "removeEpsilonStates"
 - "removeEqualRules"
-- "removeSelf"
 - "removeUniqueRules"
 - "removeUnreachableElements"
 - "removeVoidElement"
 - "transformeInV1V2"
 - "update"
-- "updateRule"
+- "updateAlphabet"
 - "updateRules"
 - "uselessSymbolsRemover"
 - "valueNewElement"
 - "verifyExistElement"
+- "verifyExistInDictionatyElement"
 - "verifyInitialVariable"
 depends-top-level:
 - !private "!"
@@ -85,6 +90,7 @@ depends-top-level:
 - !private ">"
 - "AnyObject"
 - "AssignmentPrecedence"
+- "Bool"
 - "BooleanLiteralType"
 - "Chomsky"
 - "ChomskyProtocol"
@@ -97,6 +103,7 @@ depends-top-level:
 - "String"
 - !private "StringLiteralType"
 - !private "UnicodeScalarType"
+- !private "||"
 depends-member:
 - !private ["Sa", "append"]
 - !private ["Sa", "contains"]
@@ -105,9 +112,13 @@ depends-member:
 - !private ["Sa", "first"]
 - !private ["Sa", "remove"]
 - !private ["Sa", "removeAll"]
+- !private ["Sa", "removeFirst"]
+- !private ["Sa", "removeLast"]
 - !private ["Sa", "subscript"]
 - !private ["Sa", "uniques"]
 - !private ["s10ArraySliceV", "append"]
+- !private ["s10ArraySliceV", "removeFirst"]
+- !private ["s10ArraySliceV", "removeLast"]
 - !private ["s10ArraySliceV", "rules"]
 - !private ["s10ArraySliceV", "variable"]
 - !private ["SK", "append"]
@@ -118,10 +129,13 @@ depends-member:
 - !private ["SK", "first"]
 - !private ["SK", "remove"]
 - !private ["SK", "removeAll"]
+- !private ["SK", "removeFirst"]
+- !private ["SK", "removeLast"]
 - !private ["SK", "rules"]
 - !private ["SK", "subscript"]
 - !private ["SK", "uniques"]
 - !private ["SK", "variable"]
+- !private ["Sb", "toggle"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "contains"]
 - !private ["s7CVarArgP", "count"]
@@ -130,8 +144,12 @@ depends-member:
 - !private ["s7CVarArgP", "first"]
 - !private ["s7CVarArgP", "remove"]
 - !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "removeFirst"]
+- !private ["s7CVarArgP", "removeLast"]
 - !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "toggle"]
 - !private ["s7CVarArgP", "uniques"]
+- ["11Chomsky_CYK0A0C", "Bool"]
 - ["11Chomsky_CYK0A0C", "ContextFree"]
 - ["11Chomsky_CYK0A0C", "Int"]
 - ["11Chomsky_CYK0A0C", "LanguageElements"]
@@ -139,7 +157,10 @@ depends-member:
 - ["11Chomsky_CYK0A0C", "String"]
 - ["11Chomsky_CYK0A0C", "changeRules"]
 - ["11Chomsky_CYK0A0C", "createNewRule"]
+- ["11Chomsky_CYK0A0C", "createNewRuleAlphabet"]
 - ["11Chomsky_CYK0A0C", "createVariableName"]
+- ["11Chomsky_CYK0A0C", "dataAlphabet"]
+- ["11Chomsky_CYK0A0C", "dataElements"]
 - ["11Chomsky_CYK0A0C", "deinit"]
 - ["11Chomsky_CYK0A0C", "detectEpsilon"]
 - ["11Chomsky_CYK0A0C", "detectFormat"]
@@ -162,17 +183,17 @@ depends-member:
 - ["11Chomsky_CYK0A0C", "removeEpsilon"]
 - ["11Chomsky_CYK0A0C", "removeEpsilonStates"]
 - ["11Chomsky_CYK0A0C", "removeEqualRules"]
-- ["11Chomsky_CYK0A0C", "removeSelf"]
 - ["11Chomsky_CYK0A0C", "removeUniqueRules"]
 - ["11Chomsky_CYK0A0C", "removeUnreachableElements"]
 - ["11Chomsky_CYK0A0C", "removeVoidElement"]
 - ["11Chomsky_CYK0A0C", "transformeInV1V2"]
 - ["11Chomsky_CYK0A0C", "update"]
-- ["11Chomsky_CYK0A0C", "updateRule"]
+- ["11Chomsky_CYK0A0C", "updateAlphabet"]
 - ["11Chomsky_CYK0A0C", "updateRules"]
 - ["11Chomsky_CYK0A0C", "uselessSymbolsRemover"]
 - ["11Chomsky_CYK0A0C", "valueNewElement"]
 - ["11Chomsky_CYK0A0C", "verifyExistElement"]
+- ["11Chomsky_CYK0A0C", "verifyExistInDictionatyElement"]
 - ["11Chomsky_CYK0A0C", "verifyInitialVariable"]
 - ["11Chomsky_CYK0A8ProtocolP", "ContextFree"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "LanguageElements"]
@@ -180,14 +201,21 @@ depends-member:
 - !private ["11Chomsky_CYK0A8ProtocolP", "String"]
 - ["11Chomsky_CYK0A8ProtocolP", ""]
 - !private ["11Chomsky_CYK0A8ProtocolP", "changeRules"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "createNewRule"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "createNewRuleAlphabet"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "createVariableName"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "dataAlphabet"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "dataElements"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "detectEpsilon"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "detectFormat"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "detectSizeMoreTwo"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "getInitialVariables"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "getNextVariable"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "getRules"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "initialSymbol"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "language"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "localizeUniqueRules"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "maxRulesTwo"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "newInitRule"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "newsElements"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "number"]
@@ -199,10 +227,14 @@ depends-member:
 - !private ["11Chomsky_CYK0A8ProtocolP", "removeUniqueRules"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "removeUnreachableElements"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "removeVoidElement"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "transformeInV1V2"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "update"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "updateAlphabet"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "updateRules"]
 - ["11Chomsky_CYK0A8ProtocolP", "uselessSymbolsRemover"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "valueNewElement"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "verifyExistElement"]
+- !private ["11Chomsky_CYK0A8ProtocolP", "verifyExistInDictionatyElement"]
 - !private ["11Chomsky_CYK0A8ProtocolP", "verifyInitialVariable"]
 - !private ["Sl", "append"]
 - !private ["Sl", "contains"]
@@ -212,6 +244,8 @@ depends-member:
 - !private ["Sl", "first"]
 - !private ["Sl", "remove"]
 - !private ["Sl", "removeAll"]
+- !private ["Sl", "removeFirst"]
+- !private ["Sl", "removeLast"]
 - !private ["Sl", "rules"]
 - !private ["Sl", "subscript"]
 - !private ["Sl", "uniques"]
@@ -227,6 +261,8 @@ depends-member:
 - !private ["10Foundation15ContiguousBytesP", "first"]
 - !private ["10Foundation15ContiguousBytesP", "remove"]
 - !private ["10Foundation15ContiguousBytesP", "removeAll"]
+- !private ["10Foundation15ContiguousBytesP", "removeFirst"]
+- !private ["10Foundation15ContiguousBytesP", "removeLast"]
 - !private ["10Foundation15ContiguousBytesP", "rules"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
 - !private ["10Foundation15ContiguousBytesP", "uniques"]
@@ -239,6 +275,8 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "first"]
 - !private ["s28CustomDebugStringConvertibleP", "remove"]
 - !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFirst"]
+- !private ["s28CustomDebugStringConvertibleP", "removeLast"]
 - !private ["s28CustomDebugStringConvertibleP", "rules"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "uniques"]
@@ -251,8 +289,11 @@ depends-member:
 - !private ["s17CustomReflectableP", "first"]
 - !private ["s17CustomReflectableP", "remove"]
 - !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "removeFirst"]
+- !private ["s17CustomReflectableP", "removeLast"]
 - !private ["s17CustomReflectableP", "rules"]
 - !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "toggle"]
 - !private ["s17CustomReflectableP", "uniques"]
 - !private ["s17CustomReflectableP", "variable"]
 - !private ["s23CustomStringConvertibleP", "append"]
@@ -265,8 +306,11 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "first"]
 - !private ["s23CustomStringConvertibleP", "remove"]
 - !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "removeFirst"]
+- !private ["s23CustomStringConvertibleP", "removeLast"]
 - !private ["s23CustomStringConvertibleP", "rules"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "toggle"]
 - !private ["s23CustomStringConvertibleP", "uniques"]
 - !private ["s23CustomStringConvertibleP", "variable"]
 - !private ["10Foundation12DataProtocolP", "append"]
@@ -276,6 +320,8 @@ depends-member:
 - !private ["10Foundation12DataProtocolP", "first"]
 - !private ["10Foundation12DataProtocolP", "remove"]
 - !private ["10Foundation12DataProtocolP", "removeAll"]
+- !private ["10Foundation12DataProtocolP", "removeFirst"]
+- !private ["10Foundation12DataProtocolP", "removeLast"]
 - !private ["10Foundation12DataProtocolP", "rules"]
 - !private ["10Foundation12DataProtocolP", "subscript"]
 - !private ["10Foundation12DataProtocolP", "uniques"]
@@ -288,10 +334,14 @@ depends-member:
 - !private ["Se", "first"]
 - !private ["Se", "remove"]
 - !private ["Se", "removeAll"]
+- !private ["Se", "removeFirst"]
+- !private ["Se", "removeLast"]
 - !private ["Se", "subscript"]
+- !private ["Se", "toggle"]
 - !private ["Se", "uniques"]
 - !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
 - !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
 - !private ["SE", "append"]
 - !private ["SE", "contains"]
 - !private ["SE", "count"]
@@ -300,7 +350,10 @@ depends-member:
 - !private ["SE", "first"]
 - !private ["SE", "remove"]
 - !private ["SE", "removeAll"]
+- !private ["SE", "removeFirst"]
+- !private ["SE", "removeLast"]
 - !private ["SE", "subscript"]
+- !private ["SE", "toggle"]
 - !private ["SE", "uniques"]
 - !private ["SQ", "alphabet"]
 - !private ["SQ", "append"]
@@ -313,8 +366,11 @@ depends-member:
 - !private ["SQ", "name"]
 - !private ["SQ", "remove"]
 - !private ["SQ", "removeAll"]
+- !private ["SQ", "removeFirst"]
+- !private ["SQ", "removeLast"]
 - !private ["SQ", "rules"]
 - !private ["SQ", "subscript"]
+- !private ["SQ", "toggle"]
 - !private ["SQ", "type"]
 - !private ["SQ", "uniques"]
 - !private ["SQ", "variable"]
@@ -325,10 +381,14 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "first"]
 - !private ["s25ExpressibleByArrayLiteralP", "remove"]
 - !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeFirst"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeLast"]
 - !private ["s25ExpressibleByArrayLiteralP", "rules"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s25ExpressibleByArrayLiteralP", "uniques"]
 - !private ["s25ExpressibleByArrayLiteralP", "variable"]
+- !private ["s27ExpressibleByBooleanLiteralP", "toggle"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "epsilon"]
 - !private ["s32ExpressibleByStringInterpolationP", "epsilon"]
 - !private ["s26ExpressibleByStringLiteralP", "epsilon"]
@@ -344,8 +404,11 @@ depends-member:
 - !private ["SH", "name"]
 - !private ["SH", "remove"]
 - !private ["SH", "removeAll"]
+- !private ["SH", "removeFirst"]
+- !private ["SH", "removeLast"]
 - !private ["SH", "rules"]
 - !private ["SH", "subscript"]
+- !private ["SH", "toggle"]
 - !private ["SH", "type"]
 - !private ["SH", "uniques"]
 - !private ["SH", "variable"]
@@ -354,6 +417,7 @@ depends-member:
 - !private ["11Chomsky_CYK16LanguageElementsV", "name"]
 - !private ["11Chomsky_CYK16LanguageElementsV", "type"]
 - !private ["s25LosslessStringConvertibleP", "epsilon"]
+- !private ["s25LosslessStringConvertibleP", "toggle"]
 - !private ["s10MirrorPathP", "epsilon"]
 - !private ["SM", "append"]
 - !private ["SM", "contains"]
@@ -362,6 +426,8 @@ depends-member:
 - !private ["SM", "first"]
 - !private ["SM", "remove"]
 - !private ["SM", "removeAll"]
+- !private ["SM", "removeFirst"]
+- !private ["SM", "removeLast"]
 - !private ["SM", "rules"]
 - !private ["SM", "subscript"]
 - !private ["SM", "uniques"]
@@ -373,6 +439,8 @@ depends-member:
 - !private ["10Foundation19MutableDataProtocolP", "first"]
 - !private ["10Foundation19MutableDataProtocolP", "remove"]
 - !private ["10Foundation19MutableDataProtocolP", "removeAll"]
+- !private ["10Foundation19MutableDataProtocolP", "removeFirst"]
+- !private ["10Foundation19MutableDataProtocolP", "removeLast"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
 - !private ["10Foundation19MutableDataProtocolP", "uniques"]
 - !private ["Sk", "append"]
@@ -382,6 +450,8 @@ depends-member:
 - !private ["Sk", "first"]
 - !private ["Sk", "remove"]
 - !private ["Sk", "removeAll"]
+- !private ["Sk", "removeFirst"]
+- !private ["Sk", "removeLast"]
 - !private ["Sk", "rules"]
 - !private ["Sk", "subscript"]
 - !private ["Sk", "uniques"]
@@ -394,10 +464,13 @@ depends-member:
 - !private ["Sm", "first"]
 - !private ["Sm", "remove"]
 - !private ["Sm", "removeAll"]
+- !private ["Sm", "removeFirst"]
+- !private ["Sm", "removeLast"]
 - !private ["Sm", "rules"]
 - !private ["Sm", "subscript"]
 - !private ["Sm", "uniques"]
 - !private ["Sm", "variable"]
+- !private ["11Chomsky_CYK4RuleV", "deinit"]
 - !private ["11Chomsky_CYK4RuleV", "init"]
 - !private ["11Chomsky_CYK4RuleV", "rules"]
 - !private ["11Chomsky_CYK4RuleV", "variable"]
@@ -409,6 +482,8 @@ depends-member:
 - !private ["ST", "first"]
 - !private ["ST", "remove"]
 - !private ["ST", "removeAll"]
+- !private ["ST", "removeFirst"]
+- !private ["ST", "removeLast"]
 - !private ["ST", "rules"]
 - !private ["ST", "subscript"]
 - !private ["ST", "uniques"]
@@ -431,11 +506,14 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "first"]
 - !private ["s14_ArrayProtocolP", "remove"]
 - !private ["s14_ArrayProtocolP", "removeAll"]
+- !private ["s14_ArrayProtocolP", "removeFirst"]
+- !private ["s14_ArrayProtocolP", "removeLast"]
 - !private ["s14_ArrayProtocolP", "rules"]
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s14_ArrayProtocolP", "uniques"]
 - !private ["s14_ArrayProtocolP", "variable"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "epsilon"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "toggle"]
 - !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s24_DestructorSafeContainerP", "contains"]
 - !private ["s24_DestructorSafeContainerP", "count"]
@@ -443,10 +521,13 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "first"]
 - !private ["s24_DestructorSafeContainerP", "remove"]
 - !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s24_DestructorSafeContainerP", "removeFirst"]
+- !private ["s24_DestructorSafeContainerP", "removeLast"]
 - !private ["s24_DestructorSafeContainerP", "rules"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s24_DestructorSafeContainerP", "uniques"]
 - !private ["s24_DestructorSafeContainerP", "variable"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "toggle"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "epsilon"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "epsilon"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "epsilon"]
@@ -458,6 +539,8 @@ depends-member:
 - !private ["s19_HasContiguousBytesP", "first"]
 - !private ["s19_HasContiguousBytesP", "remove"]
 - !private ["s19_HasContiguousBytesP", "removeAll"]
+- !private ["s19_HasContiguousBytesP", "removeFirst"]
+- !private ["s19_HasContiguousBytesP", "removeLast"]
 - !private ["s19_HasContiguousBytesP", "subscript"]
 - !private ["s19_HasContiguousBytesP", "uniques"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
@@ -467,6 +550,8 @@ depends-member:
 - !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeFirst"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeLast"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "uniques"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
@@ -477,12 +562,16 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "first"]
 - !private ["s21_ObjectiveCBridgeableP", "remove"]
 - !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "removeFirst"]
+- !private ["s21_ObjectiveCBridgeableP", "removeLast"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "toggle"]
 - !private ["s21_ObjectiveCBridgeableP", "uniques"]
 depends-nominal:
 - !private "Sa"
 - !private "s10ArraySliceV"
 - !private "SK"
+- !private "Sb"
 - !private "s7CVarArgP"
 - "11Chomsky_CYK0A0C"
 - "11Chomsky_CYK0A8ProtocolP"
@@ -496,9 +585,12 @@ depends-nominal:
 - !private "10Foundation12DataProtocolP"
 - !private "Se"
 - !private "s26DefaultStringInterpolationV"
+- !private "SD"
 - !private "SE"
 - !private "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s32ExpressibleByStringInterpolationP"
 - !private "s26ExpressibleByStringLiteralP"
@@ -522,6 +614,7 @@ depends-nominal:
 - !private "s14_ArrayProtocolP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
@@ -550,4 +643,4 @@ depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "4bca9163e293d76f34c93e58adca3e3d"
+interface-hash: "bc749d5752d37329fd05d86b390ec06e"

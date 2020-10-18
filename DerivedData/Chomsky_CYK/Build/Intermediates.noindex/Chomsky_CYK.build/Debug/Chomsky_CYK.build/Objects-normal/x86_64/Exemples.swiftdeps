@@ -7,10 +7,10 @@ provides-member:
 - ["11Chomsky_CYK8ExemplesC", ""]
 provides-dynamic-lookup:
 - "getExempleFive"
-- "getExempleFour"
-- "getExempleOne"
+- "getExempleOneList"
 - "getExempleThree"
 - "getExempleTwo"
+- "getExempleTwoList"
 depends-top-level:
 - "ContextFree"
 - "Exemples"
@@ -40,10 +40,10 @@ depends-member:
 - !private ["11Chomsky_CYK8ExemplesC", "String"]
 - ["11Chomsky_CYK8ExemplesC", "deinit"]
 - ["11Chomsky_CYK8ExemplesC", "getExempleFive"]
-- ["11Chomsky_CYK8ExemplesC", "getExempleFour"]
-- ["11Chomsky_CYK8ExemplesC", "getExempleOne"]
+- ["11Chomsky_CYK8ExemplesC", "getExempleOneList"]
 - ["11Chomsky_CYK8ExemplesC", "getExempleThree"]
 - ["11Chomsky_CYK8ExemplesC", "getExempleTwo"]
+- ["11Chomsky_CYK8ExemplesC", "getExempleTwoList"]
 - ["11Chomsky_CYK8ExemplesC", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "epsilon"]
 - !private ["s32ExpressibleByStringInterpolationP", "epsilon"]
@@ -128,4 +128,4 @@ depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "e8f57556a7e737ed28224f773aa0a5e7"
+interface-hash: "648aae8d4d821215c0222447ec9d93cc"

@@ -9,7 +9,7 @@
 import Foundation
 
 class Exemples {
-    static func getExempleOne() -> ContextFree {
+    static func getExempleOneList() -> ContextFree {
         let elementF = LanguageElements(name: "F", type: .variable)
         let elementO = LanguageElements(name: "O", type: .variable)
         let elementA = LanguageElements(name: "A", type: .variable)
@@ -35,6 +35,53 @@ class Exemples {
 
         let rules = [ruleOne, ruleTwo, ruleThree, ruleFour]
         let contextFree =  ContextFree(alphabet: ["->", "/\\", "\\/", "!", "(", ")", "p", "q", "r"], rules: rules)
+        return contextFree
+    }
+    static func getExempleTwoList() -> ContextFree {
+        //Variables
+        let elementD = LanguageElements(name: "D", type: .variable)
+        let elementH = LanguageElements(name: "H", type: .variable)
+        let elementI = LanguageElements(name: "I", type: .variable)
+        let elementL = LanguageElements(name: "L", type: .variable)
+        let elementM = LanguageElements(name: "M", type: .variable)
+        let elementO = LanguageElements(name: "O", type: .variable)
+        let elementT = LanguageElements(name: "T", type: .variable)
+
+        //Alphabet
+        let elementHtmlOpen = LanguageElements(name: "<html>", type: .alphabet)
+        let elementHtmlClose = LanguageElements(name: "</html>", type: .alphabet)
+        let elementHeadOpen = LanguageElements(name: "<head>", type: .alphabet)
+        let elementHeadClose = LanguageElements(name: "</head>", type: .alphabet)
+        let elementTitleOpen = LanguageElements(name: "<titlel>", type: .alphabet)
+        let elementTitleClose = LanguageElements(name: "</title>", type: .alphabet)
+        let elementBodyOpen = LanguageElements(name: "<body>", type: .alphabet)
+        let elementBodyClose = LanguageElements(name: "</body>", type: .alphabet)
+        let elementBOpen = LanguageElements(name: "<b>", type: .alphabet)
+        let elementBClose = LanguageElements(name: "</b>", type: .alphabet)
+        let elementULOpen = LanguageElements(name: "<ul>", type: .alphabet)
+        let elementULClose = LanguageElements(name: "</ul>", type: .alphabet)
+        let elementOLOpen = LanguageElements(name: "<ol>", type: .alphabet)
+        let elementOLClose = LanguageElements(name: "</ol>", type: .alphabet)
+        let elementLIOpen = LanguageElements(name: "<li>", type: .alphabet)
+        let elementLIClose = LanguageElements(name: "</li>", type: .alphabet)
+        let elementTheory = LanguageElements(name: "theory of computation", type: .alphabet)
+        let elementAutomata = LanguageElements(name: "automata", type: .alphabet)
+        let elementSpace = LanguageElements(name: " ", type: .alphabet)
+        let elementGrammars = LanguageElements(name: "grammars", type: .alphabet)
+
+        let ruleOne = Rule(variable: elementD, rules: [[elementHtmlOpen, elementHeadOpen, elementTitleOpen, elementT, elementTitleClose, elementHeadClose,
+                                                        elementBodyOpen, elementH, elementBodyClose,elementHtmlClose]]);
+        let ruleTwo = Rule(variable: elementH, rules: [[elementI, elementH], [elementI]])
+        let ruleThree = Rule(variable: elementI, rules: [[elementBOpen, elementH, elementBClose], [elementT], [elementL]])
+        let ruleFour = Rule(variable: elementL, rules: [[elementULOpen, elementM, elementULClose], [elementOLOpen, elementM, elementOLClose]])
+        let ruleFive = Rule(variable: elementM, rules: [[elementM, elementO], [elementO]])
+        let ruleSix = Rule(variable: elementO, rules: [[elementLIOpen, elementH, elementLIClose]])
+        let ruleSeven = Rule(variable: elementT, rules: [[elementTheory, elementSpace, elementAutomata, elementGrammars]])
+
+        let rules: [Rule] = [ruleOne, ruleTwo, ruleThree, ruleFour, ruleFive, ruleSix, ruleSeven]
+        let contextFree =  ContextFree(alphabet: ["<html>", "</html>", "<head>", "</head>", "<title>", "</title>", "<body>", "</body>",
+                                                  "<b>", "</b>", "<ul>", "</ul>", "<ol>", "</ol>", "<li>", "</li>",
+                                                  "theory of computation, automata", "grammars", " "], rules: rules)
         return contextFree
     }
     // Teste com variaveis dupla a, b como letrar entre variaveis
@@ -70,24 +117,6 @@ class Exemples {
 
         let rules = [ruleOne, ruleTwo, ruleThree]
         let contextFree =  ContextFree(alphabet: ["a", "b"], rules: rules)
-        return contextFree
-    }
-    static func getExempleFour() -> ContextFree {
-        let elementS = LanguageElements(name: "S", type: .variable)
-        let elementA = LanguageElements(name: "A", type: .variable)
-        let elementB = LanguageElements(name: "B", type: .variable)
-        let elementC = LanguageElements(name: "C", type: .variable)
-        let element0 = LanguageElements(name: "0", type: .alphabet)
-        let element1 = LanguageElements(name: "1", type: .alphabet)
-        let elementEpsilon = LanguageElements(name: String.epsilon, type: .alphabet)
-
-        let ruleOne = Rule(variable: elementS, rules: [[element0, elementA, element0], [element1, elementB, element1], [elementB, elementB]])
-        let ruleTwo = Rule(variable: elementA, rules: [[elementC]])
-        let ruleThree = Rule(variable: elementB, rules: [[elementS], [elementA]])
-        let ruleFour = Rule(variable: elementC, rules: [[elementS], [elementEpsilon]])
-
-        let rules = [ruleOne, ruleTwo, ruleThree, ruleFour]
-        let contextFree =  ContextFree(alphabet: ["1", "0", String.epsilon], rules: rules)
         return contextFree
     }
     static func getExempleFive() -> ContextFree {
