@@ -17,6 +17,7 @@
 		9A0FB337253A0B1600BC9BA4 /* LanguageElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FB336253A0B1600BC9BA4 /* LanguageElements.swift */; };
 		9A0FB339253A3D8500BC9BA4 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FB338253A3D8500BC9BA4 /* StringExtension.swift */; };
 		9A333DBB253BD49F00B99850 /* CYK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A333DBA253BD49F00B99850 /* CYK.swift */; };
+		9A333DBD253BDF2F00B99850 /* FormatTextCYK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A333DBC253BDF2F00B99850 /* FormatTextCYK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		9A0FB336253A0B1600BC9BA4 /* LanguageElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageElements.swift; sourceTree = "<group>"; };
 		9A0FB338253A3D8500BC9BA4 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		9A333DBA253BD49F00B99850 /* CYK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYK.swift; sourceTree = "<group>"; };
+		9A333DBC253BDF2F00B99850 /* FormatTextCYK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatTextCYK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				9A0FB331253A02DC00BC9BA4 /* Chomsky.swift */,
-				9A333DBA253BD49F00B99850 /* CYK.swift */,
 			);
 			path = Chomsky;
 			sourceTree = "<group>";
@@ -95,6 +96,7 @@
 		9A0FB3242539EC0A00BC9BA4 /* CYK */ = {
 			isa = PBXGroup;
 			children = (
+				9A333DBA253BD49F00B99850 /* CYK.swift */,
 			);
 			path = CYK;
 			sourceTree = "<group>";
@@ -124,6 +126,7 @@
 				9A0FB32A2539EDB500BC9BA4 /* Rule.swift */,
 				9A0FB32C2539EE3400BC9BA4 /* ContextFree.swift */,
 				9A0FB336253A0B1600BC9BA4 /* LanguageElements.swift */,
+				9A333DBC253BDF2F00B99850 /* FormatTextCYK.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				9A333DBB253BD49F00B99850 /* CYK.swift in Sources */,
 				9A0FB332253A02DC00BC9BA4 /* Chomsky.swift in Sources */,
 				9A0FB32D2539EE3400BC9BA4 /* ContextFree.swift in Sources */,
+				9A333DBD253BDF2F00B99850 /* FormatTextCYK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
