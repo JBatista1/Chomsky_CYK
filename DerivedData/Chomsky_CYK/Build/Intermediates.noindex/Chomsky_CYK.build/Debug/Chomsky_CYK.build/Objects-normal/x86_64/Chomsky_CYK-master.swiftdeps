@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "3cc90cbaa724ee150125ff7825ae61e2"
-build_time: [1602986335, 932189000]
+build_time: [1602986627, 208528000]
 inputs:
   "/Users/ItSelf/Documents/Estudos/Teoria da comutac\u0327a\u0303o/Chomsky_CYK/Chomsky_CYK/Utils/Model/Rule.swift": [1602985707, 781752400]
   "/Users/ItSelf/Documents/Estudos/Teoria da comutac\u0327a\u0303o/Chomsky_CYK/Chomsky_CYK/main.swift": [1602985707, 782250961]
@@ -10,5 +10,5 @@ inputs:
   "/Users/ItSelf/Documents/Estudos/Teoria da comutac\u0327a\u0303o/Chomsky_CYK/Chomsky_CYK/Utils/Extension/StringExtension.swift": [1602985707, 781117858]
   "/Users/ItSelf/Documents/Estudos/Teoria da comutac\u0327a\u0303o/Chomsky_CYK/Chomsky_CYK/Utils/Extension/ArrayExtension.swift": [1602867993, 648677376]
   "/Users/ItSelf/Documents/Estudos/Teoria da comutac\u0327a\u0303o/Chomsky_CYK/Chomsky_CYK/Chomsky/CYK.swift": [1602985707, 779019993]
-  "/Users/ItSelf/Documents/Estudos/Teoria da comutac\u0327a\u0303o/Chomsky_CYK/Chomsky_CYK/Chomsky/Chomsky.swift": [1602986206, 665508921]
+  "/Users/ItSelf/Documents/Estudos/Teoria da comutac\u0327a\u0303o/Chomsky_CYK/Chomsky_CYK/Chomsky/Chomsky.swift": [1602986627, 98410868]
   "/Users/ItSelf/Documents/Estudos/Teoria da comutac\u0327a\u0303o/Chomsky_CYK/Chomsky_CYK/Utils/Model/ContextFree.swift": [1602870090, 535398148]

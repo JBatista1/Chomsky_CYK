@@ -4732,6 +4732,40 @@
 			<key>uniqueIdentifier</key>
 			<string>880D8310-E693-449B-8534-2978592B6A6E</string>
 		</dict>
+		<key>88489F4B-E5FF-433E-A5B0-F0E82F194DD3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>88489F4B-E5FF-433E-A5B0-F0E82F194DD3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Chomsky_CYK project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Chomsky_CYK</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Chomsky_CYK</string>
+			<key>timeStartedRecording</key>
+			<real>624679427.10582697</real>
+			<key>timeStoppedRecording</key>
+			<real>624679430.69138801</real>
+			<key>title</key>
+			<string>Build Chomsky_CYK</string>
+			<key>uniqueIdentifier</key>
+			<string>88489F4B-E5FF-433E-A5B0-F0E82F194DD3</string>
+		</dict>
 		<key>8941DA46-6E59-4DFB-949A-A9B7B5260A02</key>
 		<dict>
 			<key>className</key>
@@ -5173,6 +5207,40 @@
 			<string>Build Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
 			<string>9923689C-0B95-4F31-8F53-7DFD035EF0A6</string>
+		</dict>
+		<key>99447AEE-F585-411A-99C7-1788B8E7C43D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>99447AEE-F585-411A-99C7-1788B8E7C43D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Chomsky_CYK project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Chomsky_CYK</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Chomsky_CYK</string>
+			<key>timeStartedRecording</key>
+			<real>624679332.64284396</real>
+			<key>timeStoppedRecording</key>
+			<real>624679336.88812101</real>
+			<key>title</key>
+			<string>Build Chomsky_CYK</string>
+			<key>uniqueIdentifier</key>
+			<string>99447AEE-F585-411A-99C7-1788B8E7C43D</string>
 		</dict>
 		<key>9A13BAC1-012B-4D42-8800-34A79EEB6FDB</key>
 		<dict>
@@ -7655,6 +7723,40 @@
 			<string>Build Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
 			<string>E429514C-3F18-46E3-86B5-EF8EBD7A3A2E</string>
+		</dict>
+		<key>E74F79C7-E957-4A16-A252-6E6B8C501A40</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E74F79C7-E957-4A16-A252-6E6B8C501A40.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Chomsky_CYK project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Chomsky_CYK</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Chomsky_CYK</string>
+			<key>timeStartedRecording</key>
+			<real>624679292.65679705</real>
+			<key>timeStoppedRecording</key>
+			<real>624679296.62754405</real>
+			<key>title</key>
+			<string>Build Chomsky_CYK</string>
+			<key>uniqueIdentifier</key>
+			<string>E74F79C7-E957-4A16-A252-6E6B8C501A40</string>
 		</dict>
 		<key>E8E19A63-EC67-4EBD-89F3-16ED9B2659F5</key>
 		<dict>
