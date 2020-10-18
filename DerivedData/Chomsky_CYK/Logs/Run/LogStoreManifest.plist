@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>062D4DB2-349A-4B45-A553-C850AAA638A2</key>
+		<key>055833AB-95F9-476D-8964-AA0CC9457F18</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>062D4DB2-349A-4B45-A553-C850AAA638A2.xcactivitylog</string>
+			<string>055833AB-95F9-476D-8964-AA0CC9457F18.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624569318.81654704</real>
+			<real>624666127.82049596</real>
 			<key>timeStoppedRecording</key>
-			<real>624569420.13914704</real>
+			<real>624666169.62815499</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>062D4DB2-349A-4B45-A553-C850AAA638A2</string>
+			<string>055833AB-95F9-476D-8964-AA0CC9457F18</string>
 		</dict>
-		<key>069A353B-FAB8-4CCC-A128-ABBEF7316BDA</key>
+		<key>0B4F951C-74A7-467F-908F-D2FAAAB53C72</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>069A353B-FAB8-4CCC-A128-ABBEF7316BDA.xcactivitylog</string>
+			<string>0B4F951C-74A7-467F-908F-D2FAAAB53C72.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624565296.25104296</real>
+			<real>624667377.26041102</real>
 			<key>timeStoppedRecording</key>
-			<real>624565357.79295003</real>
+			<real>624667378.87751102</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>069A353B-FAB8-4CCC-A128-ABBEF7316BDA</string>
+			<string>0B4F951C-74A7-467F-908F-D2FAAAB53C72</string>
 		</dict>
-		<key>07061A89-34F2-43EA-A783-C038E163AD5E</key>
+		<key>0D2DCDE3-9B85-4BBE-ABD7-71A1791687A6</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>07061A89-34F2-43EA-A783-C038E163AD5E.xcactivitylog</string>
+			<string>0D2DCDE3-9B85-4BBE-ABD7-71A1791687A6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +100,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624564919.52662802</real>
+			<real>624675743.93673205</real>
 			<key>timeStoppedRecording</key>
-			<real>624564993.51862597</real>
+			<real>624675937.73824596</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>07061A89-34F2-43EA-A783-C038E163AD5E</string>
+			<string>0D2DCDE3-9B85-4BBE-ABD7-71A1791687A6</string>
 		</dict>
-		<key>09E171FA-08F9-4071-A4FE-97CD07B370D2</key>
+		<key>103BB6F8-B6ED-463B-82D6-20AE28B4EF63</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -117,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>09E171FA-08F9-4071-A4FE-97CD07B370D2.xcactivitylog</string>
+			<string>103BB6F8-B6ED-463B-82D6-20AE28B4EF63.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +134,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624564996.57040799</real>
+			<real>624666735.16498005</real>
 			<key>timeStoppedRecording</key>
-			<real>624565084.67416096</real>
+			<real>624666802.90815997</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>09E171FA-08F9-4071-A4FE-97CD07B370D2</string>
+			<string>103BB6F8-B6ED-463B-82D6-20AE28B4EF63</string>
 		</dict>
-		<key>1055EA95-C00C-4A15-A055-274BAD219421</key>
+		<key>12D4344A-76B4-4410-86CF-42E179DB7297</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -151,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1055EA95-C00C-4A15-A055-274BAD219421.xcactivitylog</string>
+			<string>12D4344A-76B4-4410-86CF-42E179DB7297.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +168,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624561141.40168405</real>
+			<real>624664629.88569701</real>
 			<key>timeStoppedRecording</key>
-			<real>624561194.25993097</real>
+			<real>624664659.84479296</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>1055EA95-C00C-4A15-A055-274BAD219421</string>
+			<string>12D4344A-76B4-4410-86CF-42E179DB7297</string>
 		</dict>
-		<key>1169EA5B-F2A4-40FB-8D2A-64B26BCB9CF8</key>
+		<key>13962108-395E-4A86-96A9-4D64F23C7CB3</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -185,7 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1169EA5B-F2A4-40FB-8D2A-64B26BCB9CF8.xcactivitylog</string>
+			<string>13962108-395E-4A86-96A9-4D64F23C7CB3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +202,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624562238.25423598</real>
+			<real>624664896.58299804</real>
 			<key>timeStoppedRecording</key>
-			<real>624562243.35959995</real>
+			<real>624665348.71736801</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>1169EA5B-F2A4-40FB-8D2A-64B26BCB9CF8</string>
+			<string>13962108-395E-4A86-96A9-4D64F23C7CB3</string>
 		</dict>
-		<key>1629385E-41D7-4D80-A003-AC0FA2EFA394</key>
+		<key>1487A81F-9881-4133-9180-1B171614F58D</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -219,7 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1629385E-41D7-4D80-A003-AC0FA2EFA394.xcactivitylog</string>
+			<string>1487A81F-9881-4133-9180-1B171614F58D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -236,15 +236,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624568167.53979897</real>
+			<real>624675531.22349894</real>
 			<key>timeStoppedRecording</key>
-			<real>624568188.27940404</real>
+			<real>624675541.63213897</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>1629385E-41D7-4D80-A003-AC0FA2EFA394</string>
+			<string>1487A81F-9881-4133-9180-1B171614F58D</string>
 		</dict>
-		<key>16672967-DD75-49C9-BC06-BE068338A595</key>
+		<key>1AAF88DF-5C22-498C-B630-A9C810609004</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -253,7 +253,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>16672967-DD75-49C9-BC06-BE068338A595.xcactivitylog</string>
+			<string>1AAF88DF-5C22-498C-B630-A9C810609004.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,15 +270,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624564274.351354</real>
+			<real>624666573.29610395</real>
 			<key>timeStoppedRecording</key>
-			<real>624564383.96496797</real>
+			<real>624666651.43986702</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>16672967-DD75-49C9-BC06-BE068338A595</string>
+			<string>1AAF88DF-5C22-498C-B630-A9C810609004</string>
 		</dict>
-		<key>18CF2002-CDD0-4388-A74A-81A30A28A07E</key>
+		<key>1E7E1235-D508-49FF-89BB-4E1BBFFCC441</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -287,7 +287,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>18CF2002-CDD0-4388-A74A-81A30A28A07E.xcactivitylog</string>
+			<string>1E7E1235-D508-49FF-89BB-4E1BBFFCC441.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -304,15 +304,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624565561.92217398</real>
+			<real>624675621.01944304</real>
 			<key>timeStoppedRecording</key>
-			<real>624565580.78485096</real>
+			<real>624675625.50691605</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>18CF2002-CDD0-4388-A74A-81A30A28A07E</string>
+			<string>1E7E1235-D508-49FF-89BB-4E1BBFFCC441</string>
 		</dict>
-		<key>1942437A-0D27-4FA3-BE0A-7550AA04C6FC</key>
+		<key>1F9490B5-F5AF-43BF-B4B5-5A521C595CDC</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -321,7 +321,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1942437A-0D27-4FA3-BE0A-7550AA04C6FC.xcactivitylog</string>
+			<string>1F9490B5-F5AF-43BF-B4B5-5A521C595CDC.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -338,15 +338,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624559412.70709395</real>
+			<real>624675943.66067398</real>
 			<key>timeStoppedRecording</key>
-			<real>624559421.57741904</real>
+			<real>624675963.54606795</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>1942437A-0D27-4FA3-BE0A-7550AA04C6FC</string>
+			<string>1F9490B5-F5AF-43BF-B4B5-5A521C595CDC</string>
 		</dict>
-		<key>195F35E0-DC1D-46EA-A568-B3909BC1EFB5</key>
+		<key>24A03283-C8D0-4423-90A5-0FAF75D9A77B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -355,7 +355,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>195F35E0-DC1D-46EA-A568-B3909BC1EFB5.xcactivitylog</string>
+			<string>24A03283-C8D0-4423-90A5-0FAF75D9A77B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -372,15 +372,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624563165.12275696</real>
+			<real>624667764.20056999</real>
 			<key>timeStoppedRecording</key>
-			<real>624563166.38065505</real>
+			<real>624667807.97186995</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>195F35E0-DC1D-46EA-A568-B3909BC1EFB5</string>
+			<string>24A03283-C8D0-4423-90A5-0FAF75D9A77B</string>
 		</dict>
-		<key>2052E29B-9AC1-4C24-9C7B-D3246FAEC3EF</key>
+		<key>268B05ED-10D3-4767-A72F-9DCF510CD20A</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -389,7 +389,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2052E29B-9AC1-4C24-9C7B-D3246FAEC3EF.xcactivitylog</string>
+			<string>268B05ED-10D3-4767-A72F-9DCF510CD20A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -406,15 +406,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624562603.13136995</real>
+			<real>624675204.19550502</real>
 			<key>timeStoppedRecording</key>
-			<real>624562604.41098201</real>
+			<real>624675304.44173503</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>2052E29B-9AC1-4C24-9C7B-D3246FAEC3EF</string>
+			<string>268B05ED-10D3-4767-A72F-9DCF510CD20A</string>
 		</dict>
-		<key>294BD871-8ACC-417D-94E9-DFC13BC38AFA</key>
+		<key>2BDBFFD1-B045-43BC-9ACA-F26BEAE84354</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -423,7 +423,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>294BD871-8ACC-417D-94E9-DFC13BC38AFA.xcactivitylog</string>
+			<string>2BDBFFD1-B045-43BC-9ACA-F26BEAE84354.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -440,15 +440,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624568237.19875205</real>
+			<real>624674974.43531704</real>
 			<key>timeStoppedRecording</key>
-			<real>624568326.38059103</real>
+			<real>624674982.22661698</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>294BD871-8ACC-417D-94E9-DFC13BC38AFA</string>
+			<string>2BDBFFD1-B045-43BC-9ACA-F26BEAE84354</string>
 		</dict>
-		<key>2BED0E03-5083-4AFE-A4B2-47A2F10E7AC7</key>
+		<key>2C62E20E-6B22-4F0A-9CE3-EEFF1CCA25AF</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -457,7 +457,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2BED0E03-5083-4AFE-A4B2-47A2F10E7AC7.xcactivitylog</string>
+			<string>2C62E20E-6B22-4F0A-9CE3-EEFF1CCA25AF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -474,15 +474,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624568566.99784005</real>
+			<real>624667589.33163798</real>
 			<key>timeStoppedRecording</key>
-			<real>624568730.64746797</real>
+			<real>624667674.90169406</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>2BED0E03-5083-4AFE-A4B2-47A2F10E7AC7</string>
+			<string>2C62E20E-6B22-4F0A-9CE3-EEFF1CCA25AF</string>
 		</dict>
-		<key>2CFBDE4E-57B1-4075-A9A3-541F43A8CE0E</key>
+		<key>2C8A4B7D-004B-4F0E-970E-F50D00F114B8</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -491,7 +491,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2CFBDE4E-57B1-4075-A9A3-541F43A8CE0E.xcactivitylog</string>
+			<string>2C8A4B7D-004B-4F0E-970E-F50D00F114B8.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -508,15 +508,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624562181.38973606</real>
+			<real>624670743.85218894</real>
 			<key>timeStoppedRecording</key>
-			<real>624562197.104375</real>
+			<real>624670771.59466004</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>2CFBDE4E-57B1-4075-A9A3-541F43A8CE0E</string>
+			<string>2C8A4B7D-004B-4F0E-970E-F50D00F114B8</string>
 		</dict>
-		<key>331A3B00-0FE0-4B7B-8936-311117BD5EA7</key>
+		<key>33321AC5-302B-430F-AA40-E55E431D99CD</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -525,7 +525,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>331A3B00-0FE0-4B7B-8936-311117BD5EA7.xcactivitylog</string>
+			<string>33321AC5-302B-430F-AA40-E55E431D99CD.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -542,15 +542,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624561379.48441303</real>
+			<real>624666337.26515698</real>
 			<key>timeStoppedRecording</key>
-			<real>624561700.67015195</real>
+			<real>624666363.50157905</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>331A3B00-0FE0-4B7B-8936-311117BD5EA7</string>
+			<string>33321AC5-302B-430F-AA40-E55E431D99CD</string>
 		</dict>
-		<key>3759FFE3-F576-4A4C-A769-97934D9DB43A</key>
+		<key>4239AF0A-AAEA-416B-980D-BAB658167D7B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -559,7 +559,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3759FFE3-F576-4A4C-A769-97934D9DB43A.xcactivitylog</string>
+			<string>4239AF0A-AAEA-416B-980D-BAB658167D7B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -576,15 +576,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624562984.58045602</real>
+			<real>624639190.44791305</real>
 			<key>timeStoppedRecording</key>
-			<real>624563021.88872302</real>
+			<real>624639228.42092204</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>3759FFE3-F576-4A4C-A769-97934D9DB43A</string>
+			<string>4239AF0A-AAEA-416B-980D-BAB658167D7B</string>
 		</dict>
-		<key>3936EB23-05B9-4CF0-8EC2-612D2660A345</key>
+		<key>4589F0E6-4A9B-4AE9-9B53-F3BBE606F112</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -593,7 +593,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3936EB23-05B9-4CF0-8EC2-612D2660A345.xcactivitylog</string>
+			<string>4589F0E6-4A9B-4AE9-9B53-F3BBE606F112.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -610,15 +610,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624563307.29124403</real>
+			<real>624666661.99009705</real>
 			<key>timeStoppedRecording</key>
-			<real>624563577.46204996</real>
+			<real>624666731.658741</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>3936EB23-05B9-4CF0-8EC2-612D2660A345</string>
+			<string>4589F0E6-4A9B-4AE9-9B53-F3BBE606F112</string>
 		</dict>
-		<key>3FCF8B14-079A-4AE8-9786-39F986409124</key>
+		<key>46DF4904-F65A-4E41-97A0-0CEDA2A23D08</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -627,7 +627,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3FCF8B14-079A-4AE8-9786-39F986409124.xcactivitylog</string>
+			<string>46DF4904-F65A-4E41-97A0-0CEDA2A23D08.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -644,15 +644,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624566609.58882999</real>
+			<real>624667273.12163603</real>
 			<key>timeStoppedRecording</key>
-			<real>624566719.51654398</real>
+			<real>624667274.50958097</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>3FCF8B14-079A-4AE8-9786-39F986409124</string>
+			<string>46DF4904-F65A-4E41-97A0-0CEDA2A23D08</string>
 		</dict>
-		<key>4E2BC314-AB7A-48C9-8B97-D442B8E75333</key>
+		<key>47E0AA87-55C4-478D-9349-7CCFAAEBAB35</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -661,7 +661,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>4E2BC314-AB7A-48C9-8B97-D442B8E75333.xcactivitylog</string>
+			<string>47E0AA87-55C4-478D-9349-7CCFAAEBAB35.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -678,15 +678,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624566805.28724694</real>
+			<real>624667386.30697894</real>
 			<key>timeStoppedRecording</key>
-			<real>624567215.17612195</real>
+			<real>624667404.35813105</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>4E2BC314-AB7A-48C9-8B97-D442B8E75333</string>
+			<string>47E0AA87-55C4-478D-9349-7CCFAAEBAB35</string>
 		</dict>
-		<key>4F4A5B2E-36C3-4B91-A2F0-6CD2D33A51A5</key>
+		<key>4ECECD57-4FF4-4EFC-99F5-CD412D64B3F7</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -695,7 +695,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>4F4A5B2E-36C3-4B91-A2F0-6CD2D33A51A5.xcactivitylog</string>
+			<string>4ECECD57-4FF4-4EFC-99F5-CD412D64B3F7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -712,15 +712,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624569111.43924201</real>
+			<real>624669497.78530002</real>
 			<key>timeStoppedRecording</key>
-			<real>624569162.15373695</real>
+			<real>624669540.44533002</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>4F4A5B2E-36C3-4B91-A2F0-6CD2D33A51A5</string>
+			<string>4ECECD57-4FF4-4EFC-99F5-CD412D64B3F7</string>
 		</dict>
-		<key>506BC248-D921-4542-9971-96E2BF59DA68</key>
+		<key>57F0318A-0D24-46BE-8B22-6AC65EEC19A0</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -729,7 +729,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>506BC248-D921-4542-9971-96E2BF59DA68.xcactivitylog</string>
+			<string>57F0318A-0D24-46BE-8B22-6AC65EEC19A0.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -746,15 +746,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624566719.71933901</real>
+			<real>624667416.47265506</real>
 			<key>timeStoppedRecording</key>
-			<real>624566745.420645</real>
+			<real>624667425.13529098</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>506BC248-D921-4542-9971-96E2BF59DA68</string>
+			<string>57F0318A-0D24-46BE-8B22-6AC65EEC19A0</string>
 		</dict>
-		<key>52D24E36-5897-4544-8897-B03C86F9D24E</key>
+		<key>58565B00-DE86-4D30-955A-113E0E0C521A</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -763,7 +763,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>52D24E36-5897-4544-8897-B03C86F9D24E.xcactivitylog</string>
+			<string>58565B00-DE86-4D30-955A-113E0E0C521A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -780,15 +780,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624569688.75736797</real>
+			<real>624667107.90818202</real>
 			<key>timeStoppedRecording</key>
-			<real>624570039.30038202</real>
+			<real>624667219.30928504</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>52D24E36-5897-4544-8897-B03C86F9D24E</string>
+			<string>58565B00-DE86-4D30-955A-113E0E0C521A</string>
 		</dict>
-		<key>54C2D899-04C9-40DD-8E01-39F24566DA23</key>
+		<key>588993FA-6350-4C58-A903-7A3C1E65691D</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -797,7 +797,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>54C2D899-04C9-40DD-8E01-39F24566DA23.xcactivitylog</string>
+			<string>588993FA-6350-4C58-A903-7A3C1E65691D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -814,15 +814,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624563036.21998703</real>
+			<real>624667728.57011998</real>
 			<key>timeStoppedRecording</key>
-			<real>624563063.61049902</real>
+			<real>624667761.37031305</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>54C2D899-04C9-40DD-8E01-39F24566DA23</string>
+			<string>588993FA-6350-4C58-A903-7A3C1E65691D</string>
 		</dict>
-		<key>5A5844D9-82D4-491B-ABC6-DBF901F0929C</key>
+		<key>5E15084E-48F9-407F-BCB3-FC7534ED69A0</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -831,7 +831,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>5A5844D9-82D4-491B-ABC6-DBF901F0929C.xcactivitylog</string>
+			<string>5E15084E-48F9-407F-BCB3-FC7534ED69A0.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -848,15 +848,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624568479.11943603</real>
+			<real>624666981.03622198</real>
 			<key>timeStoppedRecording</key>
-			<real>624568489.32633495</real>
+			<real>624667097.67575097</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>5A5844D9-82D4-491B-ABC6-DBF901F0929C</string>
+			<string>5E15084E-48F9-407F-BCB3-FC7534ED69A0</string>
 		</dict>
-		<key>5C93FCA5-DE0A-49F4-B814-F3F092638ED8</key>
+		<key>612D6FCF-CAB7-4017-A61E-EDF2CEFF78CF</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -865,7 +865,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>5C93FCA5-DE0A-49F4-B814-F3F092638ED8.xcactivitylog</string>
+			<string>612D6FCF-CAB7-4017-A61E-EDF2CEFF78CF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -882,15 +882,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624568765.78731406</real>
+			<real>624667386.90644097</real>
 			<key>timeStoppedRecording</key>
-			<real>624569068.19241703</real>
+			<real>624667404.33915901</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>5C93FCA5-DE0A-49F4-B814-F3F092638ED8</string>
+			<string>612D6FCF-CAB7-4017-A61E-EDF2CEFF78CF</string>
 		</dict>
-		<key>5CC8E524-1C5F-4C90-AFDF-A1972D3D0351</key>
+		<key>6F9675F8-CB81-4FF8-9302-DE968C39B507</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -899,7 +899,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>5CC8E524-1C5F-4C90-AFDF-A1972D3D0351.xcactivitylog</string>
+			<string>6F9675F8-CB81-4FF8-9302-DE968C39B507.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -916,15 +916,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624568025.52035904</real>
+			<real>624666823.50891304</real>
 			<key>timeStoppedRecording</key>
-			<real>624568150.02318501</real>
+			<real>624666858.90694904</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>5CC8E524-1C5F-4C90-AFDF-A1972D3D0351</string>
+			<string>6F9675F8-CB81-4FF8-9302-DE968C39B507</string>
 		</dict>
-		<key>65F12B39-3B44-4674-839B-3C78DDB9B87E</key>
+		<key>72CC4571-56E5-4C5A-82E1-252DBEAC2F4F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -933,7 +933,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>65F12B39-3B44-4674-839B-3C78DDB9B87E.xcactivitylog</string>
+			<string>72CC4571-56E5-4C5A-82E1-252DBEAC2F4F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -950,15 +950,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624564088.72683096</real>
+			<real>624664551.231902</real>
 			<key>timeStoppedRecording</key>
-			<real>624564245.75671196</real>
+			<real>624664565.59586406</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>65F12B39-3B44-4674-839B-3C78DDB9B87E</string>
+			<string>72CC4571-56E5-4C5A-82E1-252DBEAC2F4F</string>
 		</dict>
-		<key>665878F0-B165-4A06-A49D-31577032E7A5</key>
+		<key>7386D1D0-7550-4034-8678-687FEAED076B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -967,7 +967,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>665878F0-B165-4A06-A49D-31577032E7A5.xcactivitylog</string>
+			<string>7386D1D0-7550-4034-8678-687FEAED076B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -984,15 +984,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624567513.76033902</real>
+			<real>624672203.41983497</real>
 			<key>timeStoppedRecording</key>
-			<real>624567693.40523696</real>
+			<real>624673342.07796395</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>665878F0-B165-4A06-A49D-31577032E7A5</string>
+			<string>7386D1D0-7550-4034-8678-687FEAED076B</string>
 		</dict>
-		<key>667D3E51-95EE-41F4-93B1-301B6977C36E</key>
+		<key>740F6E78-D405-4BAA-BF31-A5626C50FF77</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1001,7 +1001,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>667D3E51-95EE-41F4-93B1-301B6977C36E.xcactivitylog</string>
+			<string>740F6E78-D405-4BAA-BF31-A5626C50FF77.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1018,15 +1018,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624565227.34746897</real>
+			<real>624664659.98757398</real>
 			<key>timeStoppedRecording</key>
-			<real>624565270.42901695</real>
+			<real>624664696.02931201</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>667D3E51-95EE-41F4-93B1-301B6977C36E</string>
+			<string>740F6E78-D405-4BAA-BF31-A5626C50FF77</string>
 		</dict>
-		<key>6907BB1F-6E2B-438D-BF06-870219208B71</key>
+		<key>742AEE58-F7D1-4697-AE17-1570D235713C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1035,7 +1035,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>6907BB1F-6E2B-438D-BF06-870219208B71.xcactivitylog</string>
+			<string>742AEE58-F7D1-4697-AE17-1570D235713C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1052,15 +1052,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624568464.38989997</real>
+			<real>624674149.44757295</real>
 			<key>timeStoppedRecording</key>
-			<real>624568465.93982899</real>
+			<real>624674161.42161405</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>6907BB1F-6E2B-438D-BF06-870219208B71</string>
+			<string>742AEE58-F7D1-4697-AE17-1570D235713C</string>
 		</dict>
-		<key>6C63C12A-3B68-4D81-9C23-87B1FB69FCE8</key>
+		<key>78D788EF-5847-4BCF-8698-55AB9B98F342</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1069,7 +1069,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>6C63C12A-3B68-4D81-9C23-87B1FB69FCE8.xcactivitylog</string>
+			<string>78D788EF-5847-4BCF-8698-55AB9B98F342.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1086,15 +1086,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624562925.38249004</real>
+			<real>624667101.53230798</real>
 			<key>timeStoppedRecording</key>
-			<real>624562979.75123298</real>
+			<real>624667102.74815094</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>6C63C12A-3B68-4D81-9C23-87B1FB69FCE8</string>
+			<string>78D788EF-5847-4BCF-8698-55AB9B98F342</string>
 		</dict>
-		<key>6C69C652-9B34-4C6C-8419-2C095C9510EF</key>
+		<key>7915DA7A-0BB0-4E73-B5EB-48332BECBC86</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1103,7 +1103,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>6C69C652-9B34-4C6C-8419-2C095C9510EF.xcactivitylog</string>
+			<string>7915DA7A-0BB0-4E73-B5EB-48332BECBC86.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1120,15 +1120,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624569280.515751</real>
+			<real>624675468.36742604</real>
 			<key>timeStoppedRecording</key>
-			<real>624569313.73120296</real>
+			<real>624675515.88705301</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>6C69C652-9B34-4C6C-8419-2C095C9510EF</string>
+			<string>7915DA7A-0BB0-4E73-B5EB-48332BECBC86</string>
 		</dict>
-		<key>6E6D6D04-61E5-4003-A2CD-FF29EB5E1656</key>
+		<key>7D24944B-FE23-4446-8A78-F63D11A18579</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1137,7 +1137,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>6E6D6D04-61E5-4003-A2CD-FF29EB5E1656.xcactivitylog</string>
+			<string>7D24944B-FE23-4446-8A78-F63D11A18579.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1154,15 +1154,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624564613.411062</real>
+			<real>624671832.38065696</real>
 			<key>timeStoppedRecording</key>
-			<real>624564657.28401899</real>
+			<real>624672199.80315495</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>6E6D6D04-61E5-4003-A2CD-FF29EB5E1656</string>
+			<string>7D24944B-FE23-4446-8A78-F63D11A18579</string>
 		</dict>
-		<key>71900088-9BF4-43F2-8186-D361F4F89CC4</key>
+		<key>7FE4F4E6-EF11-47F5-91E1-365710DE165B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1171,7 +1171,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>71900088-9BF4-43F2-8186-D361F4F89CC4.xcactivitylog</string>
+			<string>7FE4F4E6-EF11-47F5-91E1-365710DE165B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1188,15 +1188,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624564817.78650296</real>
+			<real>624674960.95589805</real>
 			<key>timeStoppedRecording</key>
-			<real>624564854.23587298</real>
+			<real>624674970.38159704</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>71900088-9BF4-43F2-8186-D361F4F89CC4</string>
+			<string>7FE4F4E6-EF11-47F5-91E1-365710DE165B</string>
 		</dict>
-		<key>7567BC4C-B6E1-46E4-9AA8-725A0BC0D243</key>
+		<key>80A6CEEA-25A1-4386-9912-6A0F4A1661B1</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1205,7 +1205,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>7567BC4C-B6E1-46E4-9AA8-725A0BC0D243.xcactivitylog</string>
+			<string>80A6CEEA-25A1-4386-9912-6A0F4A1661B1.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1222,15 +1222,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624566207.08213496</real>
+			<real>624676079.08347201</real>
 			<key>timeStoppedRecording</key>
-			<real>624566237.96983695</real>
+			<real>624676118.80738902</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>7567BC4C-B6E1-46E4-9AA8-725A0BC0D243</string>
+			<string>80A6CEEA-25A1-4386-9912-6A0F4A1661B1</string>
 		</dict>
-		<key>75AAF49B-2AF8-4DA1-A7CE-44F2BE0BE142</key>
+		<key>831A53C7-7249-46F9-91C4-310AF8D0A158</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1239,7 +1239,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>75AAF49B-2AF8-4DA1-A7CE-44F2BE0BE142.xcactivitylog</string>
+			<string>831A53C7-7249-46F9-91C4-310AF8D0A158.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1256,15 +1256,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624562206.74845397</real>
+			<real>624675146.38299096</real>
 			<key>timeStoppedRecording</key>
-			<real>624562225.98501694</real>
+			<real>624675200.59766901</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>75AAF49B-2AF8-4DA1-A7CE-44F2BE0BE142</string>
+			<string>831A53C7-7249-46F9-91C4-310AF8D0A158</string>
 		</dict>
-		<key>7D62D116-4B4A-4247-81D7-C15E07035AFC</key>
+		<key>8504F8BA-B42D-4ABE-ACC6-393EED56A83C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1273,7 +1273,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>7D62D116-4B4A-4247-81D7-C15E07035AFC.xcactivitylog</string>
+			<string>8504F8BA-B42D-4ABE-ACC6-393EED56A83C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1290,15 +1290,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624569165.262604</real>
+			<real>624664520.14360201</real>
 			<key>timeStoppedRecording</key>
-			<real>624569248.42825103</real>
+			<real>624664542.03339696</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>7D62D116-4B4A-4247-81D7-C15E07035AFC</string>
+			<string>8504F8BA-B42D-4ABE-ACC6-393EED56A83C</string>
 		</dict>
-		<key>7DFF2008-28CF-425A-A9CB-27347293F876</key>
+		<key>85D9CFBE-CD38-42B8-8AF2-D45D622C893A</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1307,7 +1307,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>7DFF2008-28CF-425A-A9CB-27347293F876.xcactivitylog</string>
+			<string>85D9CFBE-CD38-42B8-8AF2-D45D622C893A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1324,15 +1324,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624566143.33584201</real>
+			<real>624676477.27512097</real>
 			<key>timeStoppedRecording</key>
-			<real>624566147.31832802</real>
+			<real>624677940.66016805</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>7DFF2008-28CF-425A-A9CB-27347293F876</string>
+			<string>85D9CFBE-CD38-42B8-8AF2-D45D622C893A</string>
 		</dict>
-		<key>80FC5297-B537-4271-AA55-73F852F37071</key>
+		<key>86911041-1908-4401-82E7-215E17A34809</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1341,7 +1341,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>80FC5297-B537-4271-AA55-73F852F37071.xcactivitylog</string>
+			<string>86911041-1908-4401-82E7-215E17A34809.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1358,15 +1358,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624569632.93998396</real>
+			<real>624667404.55779898</real>
 			<key>timeStoppedRecording</key>
-			<real>624569688.52607203</real>
+			<real>624667413.13061798</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>80FC5297-B537-4271-AA55-73F852F37071</string>
+			<string>86911041-1908-4401-82E7-215E17A34809</string>
 		</dict>
-		<key>84240145-38E9-41A5-9CB2-3BB2AF82F42C</key>
+		<key>8878525E-20E4-4DE4-AA25-005AFBF41E31</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1375,7 +1375,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>84240145-38E9-41A5-9CB2-3BB2AF82F42C.xcactivitylog</string>
+			<string>8878525E-20E4-4DE4-AA25-005AFBF41E31.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1392,15 +1392,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624562248.76441097</real>
+			<real>624675929.23221695</real>
 			<key>timeStoppedRecording</key>
-			<real>624562599.97192502</real>
+			<real>624675931.1401</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>84240145-38E9-41A5-9CB2-3BB2AF82F42C</string>
+			<string>8878525E-20E4-4DE4-AA25-005AFBF41E31</string>
 		</dict>
-		<key>85B6E8B2-1E82-4B11-9C45-0F47BE23BF28</key>
+		<key>8907CB5F-9764-4A18-8738-F5D35D044A8A</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1409,7 +1409,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>85B6E8B2-1E82-4B11-9C45-0F47BE23BF28.xcactivitylog</string>
+			<string>8907CB5F-9764-4A18-8738-F5D35D044A8A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1426,15 +1426,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624567218.41178095</real>
+			<real>624667684.40458095</real>
 			<key>timeStoppedRecording</key>
-			<real>624567265.58440602</real>
+			<real>624667725.62276995</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>85B6E8B2-1E82-4B11-9C45-0F47BE23BF28</string>
+			<string>8907CB5F-9764-4A18-8738-F5D35D044A8A</string>
 		</dict>
-		<key>882CA568-21DD-43D2-8EFE-F723A5BF750D</key>
+		<key>8BE5C720-D5F2-41D9-8570-E5A9D72D5EF5</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1443,7 +1443,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>882CA568-21DD-43D2-8EFE-F723A5BF750D.xcactivitylog</string>
+			<string>8BE5C720-D5F2-41D9-8570-E5A9D72D5EF5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1460,15 +1460,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624570065.02144599</real>
+			<real>624667263.12298501</real>
 			<key>timeStoppedRecording</key>
-			<real>624570331.40365505</real>
+			<real>624667264.53447497</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>882CA568-21DD-43D2-8EFE-F723A5BF750D</string>
+			<string>8BE5C720-D5F2-41D9-8570-E5A9D72D5EF5</string>
 		</dict>
-		<key>8903D168-5E01-4737-B12F-FAC324F79FD6</key>
+		<key>8C1A4734-B901-45A2-A37E-BD83E3AB747E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1477,7 +1477,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>8903D168-5E01-4737-B12F-FAC324F79FD6.xcactivitylog</string>
+			<string>8C1A4734-B901-45A2-A37E-BD83E3AB747E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1494,15 +1494,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624569515.15035295</real>
+			<real>624668856.42340505</real>
 			<key>timeStoppedRecording</key>
-			<real>624569625.66337204</real>
+			<real>624669153.53238297</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>8903D168-5E01-4737-B12F-FAC324F79FD6</string>
+			<string>8C1A4734-B901-45A2-A37E-BD83E3AB747E</string>
 		</dict>
-		<key>8F9175A8-440B-4A99-954A-778FBB2A0851</key>
+		<key>8D1E469E-815E-4F37-8625-C18B6A4DAFE8</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1511,7 +1511,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>8F9175A8-440B-4A99-954A-778FBB2A0851.xcactivitylog</string>
+			<string>8D1E469E-815E-4F37-8625-C18B6A4DAFE8.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1528,15 +1528,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624568427.86714303</real>
+			<real>624665910.09881902</real>
 			<key>timeStoppedRecording</key>
-			<real>624568461.25912499</real>
+			<real>624666107.49409902</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>8F9175A8-440B-4A99-954A-778FBB2A0851</string>
+			<string>8D1E469E-815E-4F37-8625-C18B6A4DAFE8</string>
 		</dict>
-		<key>919B4396-5240-4E2F-B137-496369A6D0F6</key>
+		<key>9406F074-8C61-473B-92DF-E81CF0B7C1E1</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1545,7 +1545,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>919B4396-5240-4E2F-B137-496369A6D0F6.xcactivitylog</string>
+			<string>9406F074-8C61-473B-92DF-E81CF0B7C1E1.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1562,15 +1562,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624561197.39943898</real>
+			<real>624671469.37642598</real>
 			<key>timeStoppedRecording</key>
-			<real>624561241.61763895</real>
+			<real>624671625.85809803</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>919B4396-5240-4E2F-B137-496369A6D0F6</string>
+			<string>9406F074-8C61-473B-92DF-E81CF0B7C1E1</string>
 		</dict>
-		<key>9251FE39-86DF-426F-A9CC-E367C92A0ADF</key>
+		<key>958D663A-E2A9-4A31-A931-BFB2C5ADDF17</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1579,7 +1579,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>9251FE39-86DF-426F-A9CC-E367C92A0ADF.xcactivitylog</string>
+			<string>958D663A-E2A9-4A31-A931-BFB2C5ADDF17.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1596,15 +1596,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624568494.98719299</real>
+			<real>624666205.16170895</real>
 			<key>timeStoppedRecording</key>
-			<real>624568566.89633906</real>
+			<real>624666264.28172195</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>9251FE39-86DF-426F-A9CC-E367C92A0ADF</string>
+			<string>958D663A-E2A9-4A31-A931-BFB2C5ADDF17</string>
 		</dict>
-		<key>9A57EA80-10AF-4D3A-8358-DEEC406CA18E</key>
+		<key>96A50B31-D92D-4C2A-B46F-5EF3D813732E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1613,7 +1613,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>9A57EA80-10AF-4D3A-8358-DEEC406CA18E.xcactivitylog</string>
+			<string>96A50B31-D92D-4C2A-B46F-5EF3D813732E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1630,15 +1630,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624570042.60736299</real>
+			<real>624674539.06736505</real>
 			<key>timeStoppedRecording</key>
-			<real>624570062.03344905</real>
+			<real>624674548.87559605</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>9A57EA80-10AF-4D3A-8358-DEEC406CA18E</string>
+			<string>96A50B31-D92D-4C2A-B46F-5EF3D813732E</string>
 		</dict>
-		<key>9F0DE242-F463-4E1B-B6E1-208467910506</key>
+		<key>992C3241-C2A0-49A0-BB21-0A8802B4C04E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1647,7 +1647,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>9F0DE242-F463-4E1B-B6E1-208467910506.xcactivitylog</string>
+			<string>992C3241-C2A0-49A0-BB21-0A8802B4C04E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1664,15 +1664,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624565906.86784601</real>
+			<real>624666169.92061996</real>
 			<key>timeStoppedRecording</key>
-			<real>624566139.51271296</real>
+			<real>624666204.95349395</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>9F0DE242-F463-4E1B-B6E1-208467910506</string>
+			<string>992C3241-C2A0-49A0-BB21-0A8802B4C04E</string>
 		</dict>
-		<key>A29678A2-D2FA-47A6-A00B-B9808D1952B6</key>
+		<key>9A69BA18-FDCF-4313-AF43-2ADB172A6CB9</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1681,7 +1681,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>A29678A2-D2FA-47A6-A00B-B9808D1952B6.xcactivitylog</string>
+			<string>9A69BA18-FDCF-4313-AF43-2ADB172A6CB9.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1698,15 +1698,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624567969.63297796</real>
+			<real>624670921.17490697</real>
 			<key>timeStoppedRecording</key>
-			<real>624567982.90448105</real>
+			<real>624670950.28840005</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>A29678A2-D2FA-47A6-A00B-B9808D1952B6</string>
+			<string>9A69BA18-FDCF-4313-AF43-2ADB172A6CB9</string>
 		</dict>
-		<key>A4402F5D-3EA4-4846-A78C-A7D6DC782B5E</key>
+		<key>9D4161F1-DBFC-4D22-9957-9C4EF61A4309</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1715,7 +1715,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>A4402F5D-3EA4-4846-A78C-A7D6DC782B5E.xcactivitylog</string>
+			<string>9D4161F1-DBFC-4D22-9957-9C4EF61A4309.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1732,15 +1732,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624563022.03183699</real>
+			<real>624676125.02328706</real>
 			<key>timeStoppedRecording</key>
-			<real>624563036.07521105</real>
+			<real>624676395.25932097</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>A4402F5D-3EA4-4846-A78C-A7D6DC782B5E</string>
+			<string>9D4161F1-DBFC-4D22-9957-9C4EF61A4309</string>
 		</dict>
-		<key>A821D1C7-FD50-4B8E-B458-3CBD7D18A2B6</key>
+		<key>A0B3EA9A-39D6-418D-B168-AEC09FF18581</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1749,7 +1749,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>A821D1C7-FD50-4B8E-B458-3CBD7D18A2B6.xcactivitylog</string>
+			<string>A0B3EA9A-39D6-418D-B168-AEC09FF18581.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1766,15 +1766,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624564437.81849897</real>
+			<real>624675013.59631395</real>
 			<key>timeStoppedRecording</key>
-			<real>624564462.15831804</real>
+			<real>624675063.81493902</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>A821D1C7-FD50-4B8E-B458-3CBD7D18A2B6</string>
+			<string>A0B3EA9A-39D6-418D-B168-AEC09FF18581</string>
 		</dict>
-		<key>ADBDBBF5-33B5-4E8C-9CB9-D988AD1E07C0</key>
+		<key>A1B1753E-A717-45BB-87E3-2EAE09A611CD</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1783,7 +1783,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>ADBDBBF5-33B5-4E8C-9CB9-D988AD1E07C0.xcactivitylog</string>
+			<string>A1B1753E-A717-45BB-87E3-2EAE09A611CD.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1800,15 +1800,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624566748.69073606</real>
+			<real>624674614.47852397</real>
 			<key>timeStoppedRecording</key>
-			<real>624566802.19699001</real>
+			<real>624674631.10495102</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>ADBDBBF5-33B5-4E8C-9CB9-D988AD1E07C0</string>
+			<string>A1B1753E-A717-45BB-87E3-2EAE09A611CD</string>
 		</dict>
-		<key>AE5C90DD-3C58-4432-9EB2-BD29BFA4F373</key>
+		<key>A1B95743-9DD4-4123-8D08-93E22A3CF434</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1817,7 +1817,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>AE5C90DD-3C58-4432-9EB2-BD29BFA4F373.xcactivitylog</string>
+			<string>A1B95743-9DD4-4123-8D08-93E22A3CF434.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1834,15 +1834,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624563171.22017503</real>
+			<real>624675063.97744906</real>
 			<key>timeStoppedRecording</key>
-			<real>624563182.83536005</real>
+			<real>624675110.81758201</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>AE5C90DD-3C58-4432-9EB2-BD29BFA4F373</string>
+			<string>A1B95743-9DD4-4123-8D08-93E22A3CF434</string>
 		</dict>
-		<key>B02D2C25-21EF-4045-9115-E40D10052BC2</key>
+		<key>A80B1CDD-0797-4825-8B43-7E5AAD73446F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1851,7 +1851,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>B02D2C25-21EF-4045-9115-E40D10052BC2.xcactivitylog</string>
+			<string>A80B1CDD-0797-4825-8B43-7E5AAD73446F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1868,15 +1868,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624565273.663921</real>
+			<real>624664699.29608905</real>
 			<key>timeStoppedRecording</key>
-			<real>624565277.84811902</real>
+			<real>624664893.19406199</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>B02D2C25-21EF-4045-9115-E40D10052BC2</string>
+			<string>A80B1CDD-0797-4825-8B43-7E5AAD73446F</string>
 		</dict>
-		<key>B38E2709-4BED-4713-ADB2-D76E4AF63D45</key>
+		<key>ACA8D76B-D1FE-4782-97D7-F05E20C8E1D3</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1885,7 +1885,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>B38E2709-4BED-4713-ADB2-D76E4AF63D45.xcactivitylog</string>
+			<string>ACA8D76B-D1FE-4782-97D7-F05E20C8E1D3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1902,15 +1902,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624564678.35930002</real>
+			<real>624669153.893103</real>
 			<key>timeStoppedRecording</key>
-			<real>624564808.78526795</real>
+			<real>624669191.74789906</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>B38E2709-4BED-4713-ADB2-D76E4AF63D45</string>
+			<string>ACA8D76B-D1FE-4782-97D7-F05E20C8E1D3</string>
 		</dict>
-		<key>B3D84DB2-3060-4EAE-B8A4-4D527586891C</key>
+		<key>ACC7279C-6760-462F-9D0A-9BEE9C94DE84</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1919,7 +1919,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>B3D84DB2-3060-4EAE-B8A4-4D527586891C.xcactivitylog</string>
+			<string>ACC7279C-6760-462F-9D0A-9BEE9C94DE84.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1936,15 +1936,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624567986.17014503</real>
+			<real>624663611.909132</real>
 			<key>timeStoppedRecording</key>
-			<real>624568009.22157097</real>
+			<real>624663662.20153499</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>B3D84DB2-3060-4EAE-B8A4-4D527586891C</string>
+			<string>ACC7279C-6760-462F-9D0A-9BEE9C94DE84</string>
 		</dict>
-		<key>B3F77527-93B8-4609-9D45-79ECF6F165A2</key>
+		<key>ACFF370E-5700-4BB6-886E-9F566753EAA3</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1953,7 +1953,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>B3F77527-93B8-4609-9D45-79ECF6F165A2.xcactivitylog</string>
+			<string>ACFF370E-5700-4BB6-886E-9F566753EAA3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1970,15 +1970,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624569433.46098006</real>
+			<real>624670771.88692999</real>
 			<key>timeStoppedRecording</key>
-			<real>624569486.39087296</real>
+			<real>624670824.48474801</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>B3F77527-93B8-4609-9D45-79ECF6F165A2</string>
+			<string>ACFF370E-5700-4BB6-886E-9F566753EAA3</string>
 		</dict>
-		<key>B827712F-52BD-4572-9EF4-15DB1BB87C4C</key>
+		<key>AE654766-154C-4A14-968E-CB61B006406F</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1987,7 +1987,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>B827712F-52BD-4572-9EF4-15DB1BB87C4C.xcactivitylog</string>
+			<string>AE654766-154C-4A14-968E-CB61B006406F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2004,15 +2004,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624563089.26905501</real>
+			<real>624671805.414096</real>
 			<key>timeStoppedRecording</key>
-			<real>624563162.34417105</real>
+			<real>624671828.38087404</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>B827712F-52BD-4572-9EF4-15DB1BB87C4C</string>
+			<string>AE654766-154C-4A14-968E-CB61B006406F</string>
 		</dict>
-		<key>BCBB2652-BBB4-47CD-9CD4-431145766C68</key>
+		<key>AFB51A03-FCE0-49D5-9E0D-24F4B2071CA5</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2021,7 +2021,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>BCBB2652-BBB4-47CD-9CD4-431145766C68.xcactivitylog</string>
+			<string>AFB51A03-FCE0-49D5-9E0D-24F4B2071CA5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2038,15 +2038,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624565376.84801102</real>
+			<real>624664573.16214097</real>
 			<key>timeStoppedRecording</key>
-			<real>624565482.55789304</real>
+			<real>624664622.90304506</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>BCBB2652-BBB4-47CD-9CD4-431145766C68</string>
+			<string>AFB51A03-FCE0-49D5-9E0D-24F4B2071CA5</string>
 		</dict>
-		<key>C2400F4B-C6AC-48E5-B6E3-58A21EB4E03E</key>
+		<key>AFF6E3C9-91E8-496B-B2C6-595A716DB908</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2055,7 +2055,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>C2400F4B-C6AC-48E5-B6E3-58A21EB4E03E.xcactivitylog</string>
+			<string>AFF6E3C9-91E8-496B-B2C6-595A716DB908.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2072,15 +2072,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624562898.22634399</real>
+			<real>624669216.775159</real>
 			<key>timeStoppedRecording</key>
-			<real>624562925.32382202</real>
+			<real>624669345.18496895</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>C2400F4B-C6AC-48E5-B6E3-58A21EB4E03E</string>
+			<string>AFF6E3C9-91E8-496B-B2C6-595A716DB908</string>
 		</dict>
-		<key>C277ED02-DC0A-4511-B6A9-6A1F42FD56E5</key>
+		<key>B175C0CD-073C-4846-9BCA-360BEF08FAD2</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2089,7 +2089,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>C277ED02-DC0A-4511-B6A9-6A1F42FD56E5.xcactivitylog</string>
+			<string>B175C0CD-073C-4846-9BCA-360BEF08FAD2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2106,15 +2106,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624560699.94992197</real>
+			<real>624669543.97270501</real>
 			<key>timeStoppedRecording</key>
-			<real>624561141.278669</real>
+			<real>624670706.74064803</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>C277ED02-DC0A-4511-B6A9-6A1F42FD56E5</string>
+			<string>B175C0CD-073C-4846-9BCA-360BEF08FAD2</string>
 		</dict>
-		<key>C4C5405C-6C71-47A4-AB73-FDDD91C29CC9</key>
+		<key>B1E9AD6E-716C-4CE6-AF2B-B80454E973E6</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2123,7 +2123,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>C4C5405C-6C71-47A4-AB73-FDDD91C29CC9.xcactivitylog</string>
+			<string>B1E9AD6E-716C-4CE6-AF2B-B80454E973E6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2140,15 +2140,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624569980.76592004</real>
+			<real>624677948.57028604</real>
 			<key>timeStoppedRecording</key>
-			<real>624570039.25606298</real>
+			<real>624678035.49075198</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>C4C5405C-6C71-47A4-AB73-FDDD91C29CC9</string>
+			<string>B1E9AD6E-716C-4CE6-AF2B-B80454E973E6</string>
 		</dict>
-		<key>CAAA6A84-F241-4847-AADD-C9BFB9CB712C</key>
+		<key>B404AE94-F715-4860-A9E3-58C4262C8ABB</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2157,7 +2157,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>CAAA6A84-F241-4847-AADD-C9BFB9CB712C.xcactivitylog</string>
+			<string>B404AE94-F715-4860-A9E3-58C4262C8ABB.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2174,15 +2174,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624569233.02944696</real>
+			<real>624667887.70416403</real>
 			<key>timeStoppedRecording</key>
-			<real>624569249.05764794</real>
+			<real>624667889.91364002</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>CAAA6A84-F241-4847-AADD-C9BFB9CB712C</string>
+			<string>B404AE94-F715-4860-A9E3-58C4262C8ABB</string>
 		</dict>
-		<key>D0D20FF5-E52F-4615-B0FA-8E474BB61916</key>
+		<key>B465F3D3-6F4B-4255-91E2-76776A8AAF58</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2191,7 +2191,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>D0D20FF5-E52F-4615-B0FA-8E474BB61916.xcactivitylog</string>
+			<string>B465F3D3-6F4B-4255-91E2-76776A8AAF58.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2208,15 +2208,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624564246.02328205</real>
+			<real>624675378.89777005</real>
 			<key>timeStoppedRecording</key>
-			<real>624564261.89669299</real>
+			<real>624675432.39351296</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>D0D20FF5-E52F-4615-B0FA-8E474BB61916</string>
+			<string>B465F3D3-6F4B-4255-91E2-76776A8AAF58</string>
 		</dict>
-		<key>D45FA561-034B-4E64-90E5-F8BBEC542F64</key>
+		<key>B912E848-BCF5-415D-8B4F-8497C6E88DFD</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2225,7 +2225,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>D45FA561-034B-4E64-90E5-F8BBEC542F64.xcactivitylog</string>
+			<string>B912E848-BCF5-415D-8B4F-8497C6E88DFD.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2242,15 +2242,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624566240.747365</real>
+			<real>624675447.24694896</real>
 			<key>timeStoppedRecording</key>
-			<real>624566567.18227994</real>
+			<real>624675467.921579</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>D45FA561-034B-4E64-90E5-F8BBEC542F64</string>
+			<string>B912E848-BCF5-415D-8B4F-8497C6E88DFD</string>
 		</dict>
-		<key>D4854AA3-B309-41C8-BEEB-11165541BF48</key>
+		<key>C0B71BF6-8B0C-44C2-B7E5-CCB27DC78025</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2259,7 +2259,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>D4854AA3-B309-41C8-BEEB-11165541BF48.xcactivitylog</string>
+			<string>C0B71BF6-8B0C-44C2-B7E5-CCB27DC78025.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2276,15 +2276,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624564555.75131702</real>
+			<real>624670706.85147595</real>
 			<key>timeStoppedRecording</key>
-			<real>624564610.19500601</real>
+			<real>624670740.45043194</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>D4854AA3-B309-41C8-BEEB-11165541BF48</string>
+			<string>C0B71BF6-8B0C-44C2-B7E5-CCB27DC78025</string>
 		</dict>
-		<key>D5B56A50-6663-4B89-AF75-1FDA0255B35B</key>
+		<key>C8C2A1A8-F745-482E-A923-3BFF0C06015B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2293,7 +2293,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>D5B56A50-6663-4B89-AF75-1FDA0255B35B.xcactivitylog</string>
+			<string>C8C2A1A8-F745-482E-A923-3BFF0C06015B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2310,15 +2310,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624564465.48471606</real>
+			<real>624666110.80241799</real>
 			<key>timeStoppedRecording</key>
-			<real>624564518.233778</real>
+			<real>624666127.63480604</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>D5B56A50-6663-4B89-AF75-1FDA0255B35B</string>
+			<string>C8C2A1A8-F745-482E-A923-3BFF0C06015B</string>
 		</dict>
-		<key>DA9513D2-AE73-41C1-AC44-43BD93B22280</key>
+		<key>CA44D34F-5495-47BF-B0CE-18590209BBBF</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2327,7 +2327,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>DA9513D2-AE73-41C1-AC44-43BD93B22280.xcactivitylog</string>
+			<string>CA44D34F-5495-47BF-B0CE-18590209BBBF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2344,15 +2344,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624564880.86627901</real>
+			<real>624675963.96126103</real>
 			<key>timeStoppedRecording</key>
-			<real>624564897.668854</real>
+			<real>624676078.619982</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>DA9513D2-AE73-41C1-AC44-43BD93B22280</string>
+			<string>CA44D34F-5495-47BF-B0CE-18590209BBBF</string>
 		</dict>
-		<key>DBEA314A-225B-4784-B3A9-9CA912652A1E</key>
+		<key>CD586930-1BB3-4486-ABAD-7AE84A81E1B2</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2361,7 +2361,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>DBEA314A-225B-4784-B3A9-9CA912652A1E.xcactivitylog</string>
+			<string>CD586930-1BB3-4486-ABAD-7AE84A81E1B2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2378,15 +2378,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624565552.44507897</real>
+			<real>624666264.59944999</real>
 			<key>timeStoppedRecording</key>
-			<real>624565553.84074497</real>
+			<real>624666333.74894595</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>DBEA314A-225B-4784-B3A9-9CA912652A1E</string>
+			<string>CD586930-1BB3-4486-ABAD-7AE84A81E1B2</string>
 		</dict>
-		<key>DCA446C5-2E16-407C-AF7F-9D3B8A37E95F</key>
+		<key>D68D8A31-8149-4109-B100-CC38E6AD054C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2395,7 +2395,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>DCA446C5-2E16-407C-AF7F-9D3B8A37E95F.xcactivitylog</string>
+			<string>D68D8A31-8149-4109-B100-CC38E6AD054C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2412,15 +2412,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624567437.82509804</real>
+			<real>624666523.90919101</real>
 			<key>timeStoppedRecording</key>
-			<real>624567456.521505</real>
+			<real>624666548.42568398</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>DCA446C5-2E16-407C-AF7F-9D3B8A37E95F</string>
+			<string>D68D8A31-8149-4109-B100-CC38E6AD054C</string>
 		</dict>
-		<key>DD1D43E4-1C02-4532-ABA2-3D408FBEE27A</key>
+		<key>D7823BF8-B1DD-412A-9023-C0583DB73316</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2429,7 +2429,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>DD1D43E4-1C02-4532-ABA2-3D408FBEE27A.xcactivitylog</string>
+			<string>D7823BF8-B1DD-412A-9023-C0583DB73316.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2446,15 +2446,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624565087.72468698</real>
+			<real>624675111.02254403</real>
 			<key>timeStoppedRecording</key>
-			<real>624565223.77449799</real>
+			<real>624675146.21327698</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>DD1D43E4-1C02-4532-ABA2-3D408FBEE27A</string>
+			<string>D7823BF8-B1DD-412A-9023-C0583DB73316</string>
 		</dict>
-		<key>DD5BB95D-B7C0-48DE-BD50-EF413AAAC8C6</key>
+		<key>D9FA6937-D4A2-4FBE-B0AB-1CAB05C81AFD</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2463,7 +2463,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>DD5BB95D-B7C0-48DE-BD50-EF413AAAC8C6.xcactivitylog</string>
+			<string>D9FA6937-D4A2-4FBE-B0AB-1CAB05C81AFD.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2480,15 +2480,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624563066.492679</real>
+			<real>624669356.18393898</real>
 			<key>timeStoppedRecording</key>
-			<real>624563077.488958</real>
+			<real>624669360.52437901</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>DD5BB95D-B7C0-48DE-BD50-EF413AAAC8C6</string>
+			<string>D9FA6937-D4A2-4FBE-B0AB-1CAB05C81AFD</string>
 		</dict>
-		<key>DE2694AF-ACC0-4D46-8F93-74381DCDCCBA</key>
+		<key>DF618F9F-8A26-45AC-8407-50D968BE21EE</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2497,7 +2497,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>DE2694AF-ACC0-4D46-8F93-74381DCDCCBA.xcactivitylog</string>
+			<string>DF618F9F-8A26-45AC-8407-50D968BE21EE.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2514,15 +2514,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624561989.84386599</real>
+			<real>624664542.23722303</real>
 			<key>timeStoppedRecording</key>
-			<real>624562178.154423</real>
+			<real>624664551.05843699</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>DE2694AF-ACC0-4D46-8F93-74381DCDCCBA</string>
+			<string>DF618F9F-8A26-45AC-8407-50D968BE21EE</string>
 		</dict>
-		<key>E11643B8-9F97-4C44-B1EA-B11BEF7424CF</key>
+		<key>E6910ECA-6A99-4241-95B4-71A7E3AF7A14</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2531,7 +2531,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>E11643B8-9F97-4C44-B1EA-B11BEF7424CF.xcactivitylog</string>
+			<string>E6910ECA-6A99-4241-95B4-71A7E3AF7A14.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2548,15 +2548,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624566583.94598198</real>
+			<real>624670827.835392</real>
 			<key>timeStoppedRecording</key>
-			<real>624566605.74219704</real>
+			<real>624670920.89785397</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>E11643B8-9F97-4C44-B1EA-B11BEF7424CF</string>
+			<string>E6910ECA-6A99-4241-95B4-71A7E3AF7A14</string>
 		</dict>
-		<key>E9D069DA-A44C-495B-A8A2-B2916A329389</key>
+		<key>E9B15FC0-D9FE-4E70-AB09-80025259F56A</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2565,7 +2565,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>E9D069DA-A44C-495B-A8A2-B2916A329389.xcactivitylog</string>
+			<string>E9B15FC0-D9FE-4E70-AB09-80025259F56A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2582,15 +2582,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624567268.73931801</real>
+			<real>624664623.07047904</real>
 			<key>timeStoppedRecording</key>
-			<real>624567298.35645604</real>
+			<real>624664629.75616002</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>E9D069DA-A44C-495B-A8A2-B2916A329389</string>
+			<string>E9B15FC0-D9FE-4E70-AB09-80025259F56A</string>
 		</dict>
-		<key>EB47B854-EAE5-46A5-80B2-60CB4ED1FBEA</key>
+		<key>E9E0AF0E-2DA9-4BC5-AF59-1F8565E27E67</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2599,7 +2599,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>EB47B854-EAE5-46A5-80B2-60CB4ED1FBEA.xcactivitylog</string>
+			<string>E9E0AF0E-2DA9-4BC5-AF59-1F8565E27E67.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2616,15 +2616,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624563620.61023796</real>
+			<real>624671629.33698201</real>
 			<key>timeStoppedRecording</key>
-			<real>624563634.02830696</real>
+			<real>624671728.74810696</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>EB47B854-EAE5-46A5-80B2-60CB4ED1FBEA</string>
+			<string>E9E0AF0E-2DA9-4BC5-AF59-1F8565E27E67</string>
 		</dict>
-		<key>F100352F-779E-422D-8017-C14455F5814B</key>
+		<key>EAE673FB-DA96-4FA5-9869-06A405033393</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2633,7 +2633,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>F100352F-779E-422D-8017-C14455F5814B.xcactivitylog</string>
+			<string>EAE673FB-DA96-4FA5-9869-06A405033393.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2650,15 +2650,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624564857.45675504</real>
+			<real>624666654.94983804</real>
 			<key>timeStoppedRecording</key>
-			<real>624564877.38208103</real>
+			<real>624666658.84754503</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>F100352F-779E-422D-8017-C14455F5814B</string>
+			<string>EAE673FB-DA96-4FA5-9869-06A405033393</string>
 		</dict>
-		<key>F43E2004-7B7D-436E-9E38-D4A5E31FDA6C</key>
+		<key>ECCA4486-7F14-484C-B2CE-5E369177C5FD</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2667,7 +2667,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>F43E2004-7B7D-436E-9E38-D4A5E31FDA6C.xcactivitylog</string>
+			<string>ECCA4486-7F14-484C-B2CE-5E369177C5FD.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2684,15 +2684,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624568188.52683604</real>
+			<real>624674117.75693798</real>
 			<key>timeStoppedRecording</key>
-			<real>624568233.75691199</real>
+			<real>624674149.18960094</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>F43E2004-7B7D-436E-9E38-D4A5E31FDA6C</string>
+			<string>ECCA4486-7F14-484C-B2CE-5E369177C5FD</string>
 		</dict>
-		<key>F49B33C4-3DA7-4025-8E67-8621100547EF</key>
+		<key>EE3F628D-1CA2-4871-B1A8-00E06C667F77</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2701,7 +2701,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>F49B33C4-3DA7-4025-8E67-8621100547EF.xcactivitylog</string>
+			<string>EE3F628D-1CA2-4871-B1A8-00E06C667F77.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2718,15 +2718,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624569494.66115606</real>
+			<real>624666862.38237298</real>
 			<key>timeStoppedRecording</key>
-			<real>624569512.199862</real>
+			<real>624666978.08692503</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>F49B33C4-3DA7-4025-8E67-8621100547EF</string>
+			<string>EE3F628D-1CA2-4871-B1A8-00E06C667F77</string>
 		</dict>
-		<key>F4F7A05D-4337-4CBA-8C84-69AB592E8D94</key>
+		<key>F1EF57B0-538D-4C62-8507-712B3E648152</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2735,7 +2735,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>F4F7A05D-4337-4CBA-8C84-69AB592E8D94.xcactivitylog</string>
+			<string>F1EF57B0-538D-4C62-8507-712B3E648152.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2752,15 +2752,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624565360.50311899</real>
+			<real>624667254.29172504</real>
 			<key>timeStoppedRecording</key>
-			<real>624565376.688802</real>
+			<real>624667262.92493403</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>F4F7A05D-4337-4CBA-8C84-69AB592E8D94</string>
+			<string>F1EF57B0-538D-4C62-8507-712B3E648152</string>
 		</dict>
-		<key>F82963ED-6271-4C29-93B0-4BBCA294F46C</key>
+		<key>F4FD861D-0A9A-4D9D-9533-6AA8FAA1B6C7</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2769,7 +2769,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>F82963ED-6271-4C29-93B0-4BBCA294F46C.xcactivitylog</string>
+			<string>F4FD861D-0A9A-4D9D-9533-6AA8FAA1B6C7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2786,15 +2786,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624564387.39532304</real>
+			<real>624675432.79192805</real>
 			<key>timeStoppedRecording</key>
-			<real>624564423.82961702</real>
+			<real>624675446.92992401</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>F82963ED-6271-4C29-93B0-4BBCA294F46C</string>
+			<string>F4FD861D-0A9A-4D9D-9533-6AA8FAA1B6C7</string>
 		</dict>
-		<key>F8515B8D-1194-48F4-BAA4-2277AB23BF06</key>
+		<key>F792C50D-D46B-4B4C-A83F-C09ED8F0801B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2803,7 +2803,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>F8515B8D-1194-48F4-BAA4-2277AB23BF06.xcactivitylog</string>
+			<string>F792C50D-D46B-4B4C-A83F-C09ED8F0801B.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2820,15 +2820,15 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624562615.47188306</real>
+			<real>624668796.50977302</real>
 			<key>timeStoppedRecording</key>
-			<real>624562898.09681594</real>
+			<real>624668851.11084902</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>F8515B8D-1194-48F4-BAA4-2277AB23BF06</string>
+			<string>F792C50D-D46B-4B4C-A83F-C09ED8F0801B</string>
 		</dict>
-		<key>FDE1FD86-5823-4E6E-A1EE-D10AAC9777CD</key>
+		<key>F7BE01EF-F137-4273-B5B5-F2213BB158D9</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -2837,7 +2837,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>FDE1FD86-5823-4E6E-A1EE-D10AAC9777CD.xcactivitylog</string>
+			<string>F7BE01EF-F137-4273-B5B5-F2213BB158D9.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -2854,13 +2854,149 @@
 			<key>signature</key>
 			<string>Run Chomsky_CYK</string>
 			<key>timeStartedRecording</key>
-			<real>624552489.71044803</real>
+			<real>624667222.14039803</real>
 			<key>timeStoppedRecording</key>
-			<real>624552503.69535506</real>
+			<real>624667254.06194794</real>
 			<key>title</key>
 			<string>Run Chomsky_CYK</string>
 			<key>uniqueIdentifier</key>
-			<string>FDE1FD86-5823-4E6E-A1EE-D10AAC9777CD</string>
+			<string>F7BE01EF-F137-4273-B5B5-F2213BB158D9</string>
+		</dict>
+		<key>F81C2B1B-E6A8-4583-9BCF-B9AD3E294DBA</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F81C2B1B-E6A8-4583-9BCF-B9AD3E294DBA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Chomsky_CYK project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Chomsky_CYK</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Chomsky_CYK</string>
+			<key>timeStartedRecording</key>
+			<real>624666441.30950296</real>
+			<key>timeStoppedRecording</key>
+			<real>624666498.49428904</real>
+			<key>title</key>
+			<string>Run Chomsky_CYK</string>
+			<key>uniqueIdentifier</key>
+			<string>F81C2B1B-E6A8-4583-9BCF-B9AD3E294DBA</string>
+		</dict>
+		<key>FA4B8004-B1D2-4012-A888-3B28BBB5C703</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FA4B8004-B1D2-4012-A888-3B28BBB5C703.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Chomsky_CYK project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Chomsky_CYK</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Chomsky_CYK</string>
+			<key>timeStartedRecording</key>
+			<real>624675938.37959898</real>
+			<key>timeStoppedRecording</key>
+			<real>624675940.00269401</real>
+			<key>title</key>
+			<string>Run Chomsky_CYK</string>
+			<key>uniqueIdentifier</key>
+			<string>FA4B8004-B1D2-4012-A888-3B28BBB5C703</string>
+		</dict>
+		<key>FE5A33F8-8FE3-40C7-A8F0-BCDA2CACA3B6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FE5A33F8-8FE3-40C7-A8F0-BCDA2CACA3B6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Chomsky_CYK project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Chomsky_CYK</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Chomsky_CYK</string>
+			<key>timeStartedRecording</key>
+			<real>624673359.15243006</real>
+			<key>timeStoppedRecording</key>
+			<real>624673444.12334299</real>
+			<key>title</key>
+			<string>Run Chomsky_CYK</string>
+			<key>uniqueIdentifier</key>
+			<string>FE5A33F8-8FE3-40C7-A8F0-BCDA2CACA3B6</string>
+		</dict>
+		<key>FFC54841-1445-4C19-BF14-150F36EAF106</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FFC54841-1445-4C19-BF14-150F36EAF106.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Chomsky_CYK project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Chomsky_CYK</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Chomsky_CYK</string>
+			<key>timeStartedRecording</key>
+			<real>624675308.12669003</real>
+			<key>timeStoppedRecording</key>
+			<real>624675378.52643502</real>
+			<key>title</key>
+			<string>Run Chomsky_CYK</string>
+			<key>uniqueIdentifier</key>
+			<string>FFC54841-1445-4C19-BF14-150F36EAF106</string>
 		</dict>
 	</dict>
 </dict>
