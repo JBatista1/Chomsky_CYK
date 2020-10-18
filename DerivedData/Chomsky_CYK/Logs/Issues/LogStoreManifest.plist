@@ -5,7 +5,36 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>21F08391-DE6A-477D-B010-4BE197510A31</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
+			<key>fileName</key>
+			<string>21F08391-DE6A-477D-B010-4BE197510A31.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>Chomsky_CYK-elkanyqyfgqfwvcijicvxquqesnb</string>
+			<key>timeStartedRecording</key>
+			<real>624679135.89039898</real>
+			<key>timeStoppedRecording</key>
+			<real>624679149.94021595</real>
+			<key>title</key>
+			<string>Build target Chomsky_CYK</string>
+			<key>uniqueIdentifier</key>
+			<string>21F08391-DE6A-477D-B010-4BE197510A31</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>
