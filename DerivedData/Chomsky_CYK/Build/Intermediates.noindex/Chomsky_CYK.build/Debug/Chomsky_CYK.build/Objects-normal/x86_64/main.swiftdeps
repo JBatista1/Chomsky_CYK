@@ -1,43 +1,30 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "exemple"
-- "chomsky"
+- "exempleLangaueCYK"
+- "cyk"
+- "myString"
 provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "Chomsky"
+- "CYK"
 - "Exemples"
-- "FloatLiteralType"
-- "IntegerLiteralType"
+- "FormatTextCYK"
 - "StringLiteralType"
-- "chomsky"
-- "exemple"
+- "UnicodeScalarType"
+- "cyk"
+- "exempleLangaueCYK"
+- "myString"
 - "print"
 depends-member:
-- ["11Chomsky_CYK0A0C", "generateChomskyFormatter"]
-- ["11Chomsky_CYK0A0C", "init"]
-- ["11Chomsky_CYK0A8ProtocolP", "generateChomskyFormatter"]
-- ["11Chomsky_CYK0A8ProtocolP", "init"]
-- ["11Chomsky_CYK11ContextFreeC", "initialSymbol"]
-- ["s23CustomStringConvertibleP", "appendInterpolation"]
-- ["s23CustomStringConvertibleP", "appendLiteral"]
-- ["s26DefaultStringInterpolationV", "appendInterpolation"]
-- ["s26DefaultStringInterpolationV", "appendLiteral"]
-- ["11Chomsky_CYK8ExemplesC", "getExempleTwoList"]
-- ["s27StringInterpolationProtocolP", "appendInterpolation"]
-- ["s27StringInterpolationProtocolP", "appendLiteral"]
-- ["s16TextOutputStreamP", "appendInterpolation"]
-- ["s16TextOutputStreamP", "appendLiteral"]
+- ["11Chomsky_CYK0B0C", "init"]
+- ["11Chomsky_CYK0B0C", "verify"]
+- ["11Chomsky_CYK8ExemplesC", "getExempleLanguageCYK"]
+- ["11Chomsky_CYK010FormatTextB0V", "init"]
 depends-nominal:
-- "11Chomsky_CYK0A0C"
-- "11Chomsky_CYK0A8ProtocolP"
-- "11Chomsky_CYK11ContextFreeC"
-- "s23CustomStringConvertibleP"
-- "s26DefaultStringInterpolationV"
+- "11Chomsky_CYK0B0C"
 - "11Chomsky_CYK8ExemplesC"
-- "s27StringInterpolationProtocolP"
-- "s16TextOutputStreamP"
+- "11Chomsky_CYK010FormatTextB0V"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
@@ -60,4 +47,4 @@ depends-external:
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode 11.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "524fff2988df1d511717f1f8abd410d5"
+interface-hash: "3e5f15aa995a40ad0d8930c432dd8e7e"

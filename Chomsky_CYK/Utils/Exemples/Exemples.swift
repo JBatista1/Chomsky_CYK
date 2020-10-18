@@ -69,8 +69,8 @@ class Exemples {
         let elementSpace = LanguageElements(name: " ", type: .alphabet)
         let elementGrammars = LanguageElements(name: "grammars", type: .alphabet)
 
-        let ruleOne = Rule(variable: elementD, rules: [[elementHtmlOpen, elementHeadOpen, elementTitleOpen, elementT, elementTitleClose, elementHeadClose,
-                                                        elementBodyOpen, elementH, elementBodyClose,elementHtmlClose]]);
+        let ruleOne = Rule(variable: elementD, rules: [[elementHtmlOpen, elementHeadOpen, elementTitleOpen, elementT,
+                                                        elementTitleClose, elementHeadClose, elementBodyOpen, elementH, elementBodyClose,elementHtmlClose]])
         let ruleTwo = Rule(variable: elementH, rules: [[elementI, elementH], [elementI]])
         let ruleThree = Rule(variable: elementI, rules: [[elementBOpen, elementH, elementBClose], [elementT], [elementL]])
         let ruleFour = Rule(variable: elementL, rules: [[elementULOpen, elementM, elementULClose], [elementOLOpen, elementM, elementOLClose]])
@@ -132,6 +132,24 @@ class Exemples {
         let ruleThree = Rule(variable: elementB, rules: [[elementb, elementB, elementB], [elementEpsilon]])
 
         let rules = [ruleOne, ruleTwo, ruleThree]
+        let contextFree = ContextFree(alphabet: ["a", "b"], rules: rules)
+        return contextFree
+    }
+
+    static func getExempleLanguageCYK() -> ContextFree {
+        let elementS = LanguageElements(name: "S", type: .variable)
+        let elementA = LanguageElements(name: "A", type: .variable)
+        let elementB = LanguageElements(name: "B", type: .variable)
+        let elementC = LanguageElements(name: "C", type: .variable)
+        let elementa = LanguageElements(name: "a", type: .alphabet)
+        let elementb = LanguageElements(name: "b", type: .alphabet)
+
+        let ruleOne = Rule(variable: elementS, rules: [[elementA, elementB], [elementB, elementC]])
+        let ruleTwo = Rule(variable: elementA, rules: [[elementB, elementA], [elementa]])
+        let ruleThree = Rule(variable: elementB, rules: [[elementC, elementC], [elementb]])
+        let ruleFour = Rule(variable: elementC, rules: [[elementA, elementB], [elementa]])
+
+        let rules = [ruleOne, ruleTwo, ruleThree, ruleFour]
         let contextFree = ContextFree(alphabet: ["a", "b"], rules: rules)
         return contextFree
     }
